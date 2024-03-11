@@ -25,11 +25,20 @@ import os
 from urllib.parse import urljoin
 import requests
 from requests.adapters import HTTPAdapter
-import multiprocessing
 import concurrent.futures
 from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import NoSuchElementException
 import globals
+import sqlite3
+from datetime import datetime
+
+from bs4 import BeautifulSoup
+
+import db_handler
+
+import urllib3
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
 
 
 class SEBIDataScraper:
@@ -42,6 +51,8 @@ class SEBIDataScraper:
             df.to_csv(globals.pdf_links_of_all, index=True)
             print(f"CSV file {globals.pdf_links_of_all} with column names created successfully.")
         self.data = []
+        
+        self.db_handler_obj = db_handler.DBHandler(globals.DB_NAME)
 
     def create_folder_hierarchy(self):
         try:
@@ -180,27 +191,12 @@ class SEBIDataScraper:
             # print(f"Row added in CSV: {menu} | sub_menu: {submenu}")
     
     def collect_pdf_links(self,menu_to_scrape, submenu_to_scrape):
-        # print(f"Entering collect_pdf_links for [{menu_to_scrape}] | [{submenu_to_scrape}]")
-        # self.collect_html_links(menu_to_scrape, submenu_to_scrape)
+
         print(f"collecting pdf links for : [{menu_to_scrape}] | [{submenu_to_scrape}]")
-        def soup_returner(url):
-            soup = BeautifulSoup()
-            try:
-                session = requests.Session()
-                retry = HTTPAdapter(max_retries=5)
-                session.mount("http://", retry)
-                session.mount("https://", retry)
-                read = session.get(url,verify=False)
-                html_content = read.text
-                soup = BeautifulSoup(html_content,'html.parser')
-            except Exception as e:
-                print("URL ", url)
-                print("Exception occured : ",e )
-            return soup
 
         for row in self.data:
             url = row['html_link']
-            soup = soup_returner(url)
+            soup = self.soup_returner(url)
             only_anchor_tags = soup.find_all('iframe')
             new_pdf_link = ""
             for link in only_anchor_tags:
@@ -282,6 +278,10 @@ class SEBIDataScraper:
             logging.info('Browser session closed')
 
     def download_pdf_new(self,row):
+        
+        print("ROW RECEIVED :")
+        print(row)
+        
         url = row['pdf_link']
         html_url = row['html_link']
         title = row['title']
@@ -378,12 +378,9 @@ class SEBIDataScraper:
         type = row['type']
         sub_type = row['sub_type']
         file_name = row['file_name']
-        
-        
-        
+
         print(f" File : {file_name} and LENGTH : {len(file_name)}",file_name)
-        
-        
+
         type = type.replace(" ","_")
         sub_type = sub_type.replace(" ","_")
         type_folder_path = os.path.join(globals.SEBI_data_extraction_base_folder,type)
@@ -440,7 +437,6 @@ class SEBIDataScraper:
         print(f"Create list of links {menu} and {submenu}")
         
         i = 0
-        
         for _,row in df.iterrows():
             
             pdf_link = row['pdf_link']
@@ -450,7 +446,6 @@ class SEBIDataScraper:
             sub_type = row['sub_type']
             file_name = row['file_name']
             flag = False
-            
             
             if(pd.isna(row['pdf_link'])):
                 flag = True
@@ -579,6 +574,21 @@ class SEBIDataScraper:
                     else:
                         self.download_pdf(pdf_url, download_path,file_name)
                         
+    def soup_returner(self,url):
+        soup = BeautifulSoup()
+        try:
+            session = requests.Session()
+            retry = HTTPAdapter(max_retries=5)
+            session.mount("http://", retry)
+            session.mount("https://", retry)
+            read = session.get(url,verify=False)
+            html_content = read.text
+            soup = BeautifulSoup(html_content,'html.parser')
+        except Exception as e:
+            print("URL ", url)
+            print("Exception occured : ",e )
+        return soup
+                        
     def download_files3(self,menu,submenu):
         print("inside download_files3")
         print(menu,submenu)
@@ -616,5 +626,502 @@ class SEBIDataScraper:
             print(f"Download completed : {i}/{len(html_urls)} ")
             i += 1
 
-        
+    def find_table(self,whats_new_url):
+        soup = self.soup_returner(whats_new_url)
+        table = soup.find('table', id='sample_1')
+        return str(table)
     
+    def create_hash(self,whats_new_url):
+        soup = self.soup_returner(whats_new_url) 
+        table = soup.find('table', id='sample_1')
+        hash_object = hashlib.sha256()
+        hash_object.update(table.encode('utf-8'))
+        hash_hex = hash_object.hexdigest()
+        # return hash_hex,str(table)
+        return hash_hex
+    
+    def create_list_of_rows_from_table_html(self,html_content_of_table):
+        list_of_rows = []
+        soup = BeautifulSoup(html_content_of_table, 'html.parser')
+        rows = soup.find_all('tr')
+
+        # Iterate over each row
+        for row in rows:
+            # Extract data from each column
+            temp = []
+            columns = row.find_all('td')
+            date = columns[0].text
+            category = columns[1].text
+            
+            link = columns[2].find('a')
+            title = link.text
+            url = link['href']
+            
+            date = utils.date_formatter(date)
+            
+            temp = {
+                "date" : date,
+                "category" : category,
+                "url" : url,
+                "title" : title,
+            }
+            list_of_rows.append(temp)
+        return list_of_rows
+    
+    def get_pdf_url(self,html_url):
+        # url = row['html_link']
+        soup = self.soup_returner(html_url)
+        BASE_URL = "https://www.sebi.gov.in/"
+        iframe_tag = soup.find_all('iframe')
+        pdf_link = ""
+        
+        
+        if iframe_tag:
+            for link in iframe_tag:
+                pdf_link = link.get('src')
+                if pdf_link and pdf_link.lower().endswith(".pdf"):
+                    pdf_link = urljoin(BASE_URL,pdf_link)
+        else:
+            all_anchor_tags = soup.find_all('a')
+            for link in all_anchor_tags:
+                pdf_link = link.get('href')
+                if pdf_link and pdf_link.lower().endswith(".pdf"):
+                    pdf_link = urljoin(BASE_URL,pdf_link)
+                    
+        return pdf_link
+    
+    def save_to_db(self,data):
+        #
+        print("saving data in db.....")
+        
+        try:
+            # Connect to the SQLite database (or create it if it doesn't exist)
+            conn = sqlite3.connect(globals.DB_NAME)
+            cursor = conn.cursor()
+            
+            for row in data:
+                # print(row)
+                date = row['date']
+                category = row['category']
+                url = row['url']
+                title = row['title']
+                
+                try:
+                    print("INSERTING INTO DB : ",date,category,url,title)
+                    
+                    query = f'''INSERT INTO {globals.TABLE_NOTIF_DATA} (url, notif_date, notif_category, notif_title)
+                                    VALUES (?,?,?,?)'''
+                    cursor.execute(query,(url,date,category,title))
+                except Exception as e:
+                    print("FOR ROW", row)
+                    print("Exception occured..",e)
+                    
+
+            # Commit the changes
+            conn.commit()
+            print("Data saved successfully to database.")
+        except sqlite3.Error as e:
+            print("SQLite error:", e)
+        finally:
+            # Close the database connection
+            if conn:
+                conn.close()
+                
+    # def save_to_db(self,data):
+    #     #
+    #     print("saving data in db.....")
+        
+    #     try:
+    #         # Connect to the SQLite database (or create it if it doesn't exist)
+    #         conn = sqlite3.connect(self.db_name)
+    #         cursor = conn.cursor()
+            
+
+    #         # Insert data from the list into the database table
+    #         # cursor.executemany(f'INSERT INTO {db_constant.TABLE_NOTIF_DATA} VALUES (?, ?, ?, ?)', data)
+            
+    #         for row in data:
+    #             # print(row)
+    #             date = row['date']
+    #             category = row['category']
+    #             url = row['url']
+    #             title = row['title']
+    #             try:
+    #                 print("INSERTING INTO DB : ",date,category,url,title)
+                    
+    #                 #             url TEXT PRIMARY KEY,
+    #                 #             notif_date TEXT,
+    #                 #             notif_category TEXT,
+    #                 #             notif_title TEXT,
+    #                 #             notif_metadata TEXT
+                    
+    #                 query = f'''INSERT INTO {db_constant.TABLE_NOTIF_DATA} (url, notif_date, notif_category, notif_title)
+    #                                 VALUES (?,?,?,?)'''
+    #                 cursor.execute(query,(url,date,category,title))
+    #             # cursor.execute(f'''INSERT INTO {db_table_state_storer} (scanning_date, scanning_time, hashed_val)
+    #             #             VALUES (?, ?, ?)''', (current_date, current_time, hash_hex))
+    #             except Exception as e:
+    #                 print("FOR ROW", row)
+    #                 print("Exception occured..",e)
+                    
+
+    #         # Commit the changes
+    #         conn.commit()
+    #         print("Data saved successfully to database.")
+    #     except sqlite3.Error as e:
+    #         print("SQLite error:", e)
+    #     finally:
+    #         # Close the database connection
+    #         if conn:
+    #             conn.close()
+
+    def save_initial_state(self):
+        print("Saving initial state.")
+        whats_new_url = "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListingAll=yes"
+        current_hash_hex = self.create_hash(whats_new_url)
+        self.db_handler_obj.save_current_state(whats_new_url,current_hash_hex)
+        
+    def save_current_state(self):
+        print("Saving current state.")
+        whats_new_url = "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListingAll=yes"
+        current_hash_hex = self.create_hash(whats_new_url)
+        self.db_handler_obj.save_current_state(whats_new_url,current_hash_hex)
+        
+    def format_date_for_sqlite(self,date_str):
+        # Parse the input date string
+        parsed_date = datetime.strptime(date_str, "%b %d, %Y")
+        # Format the parsed date into SQLite sortable format (YYYY-MM-DD)
+        sqlite_formatted_date = parsed_date.strftime("%Y-%m-%d")
+        return sqlite_formatted_date
+    
+    def find_new_notifs(self,most_recent_notifs):
+        set_of_most_recent_pdf_links = set()
+        print("inside find_new_notifs")
+        
+        for row in most_recent_notifs:
+            html_link = row[0]
+            set_of_most_recent_pdf_links.add(html_link)
+        
+        print("set_of_most_recent_html_links :")
+        print(set_of_most_recent_pdf_links)
+        
+        url = "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListingAll=yes"
+            
+        new_notifs = []
+        print("inside find_new_notifs")
+        
+        options = webdriver.ChromeOptions()
+        options.add_argument('--blink-settings=imagesEnabled=false')
+        options.add_argument("--headless=new")
+        options.add_experimental_option('excludeSwitches', ['enable-logging'])
+        
+        driver = webdriver.Chrome(options=options)
+        driver.get(url)
+        
+        page_num = 0
+
+        while(1):
+            print("inside while")
+            try:
+                print(f"Page : {page_num}")
+                # The html contains table which hold info - PDF Title, Data, PDF Viewer Link
+                
+                time.sleep(5)
+                ########### GEL HTML/PDF LINKS FROM THE TABLE ###########
+                html_content = driver.page_source
+                soup = BeautifulSoup(html_content,'html.parser')
+                
+                table = soup.find('table')
+
+                if(table == None):
+                    return
+                no_of_rows = len(table.find_all('tr'))
+
+                print(f"Page : {page_num} | No of rows: {no_of_rows}")
+
+                all_rows = table.find_all('tr')
+                print(f"Number of rows in page:{page_num} :: ",len(all_rows))
+                if(len(all_rows) == 0):
+                    break
+                i = 1
+                for row in all_rows:
+                    # print(row)
+                    print("------------------------")
+                    if(row == None):
+                        continue
+                    all_table_data_cells = row.find_all('td')
+                    
+                    # print("len(all_table_data_cells) :: ",len(all_table_data_cells))
+                    
+                    # Exclude the first row
+                    if(len(all_table_data_cells) == 0):
+                        continue
+                    i += 1
+                    date_notif = all_table_data_cells[0].text
+                    category_notif = title = all_table_data_cells[1].text
+                    anchor_tag = all_table_data_cells[2].find('a')
+                    title_notif = all_table_data_cells[2].text
+
+                    href_link_notif = anchor_tag.get('href')
+                    
+                    pdf_link_notif = ""
+                    pdf_link_notif = self.get_pdf_url(href_link_notif)
+
+                    new_formatted_date = self.format_date_for_sqlite(date_notif)
+                    date_notif = new_formatted_date
+                    
+                    print(f"Row {i} extracted")
+                    i += 1
+                    new_row = {
+                        "date" : date_notif,
+                        "category" : category_notif,
+                        "url" : pdf_link_notif,
+                        "title" : title_notif,
+                    }
+                    # print("pdf_link_notif:")
+                    # print(pdf_link_notif)
+                    if(pdf_link_notif in set_of_most_recent_pdf_links):
+                        # print("New Notifs detected")
+                        # print(new_notifs)
+                        return new_notifs
+
+                    new_notifs.append(new_row)
+
+                ############ ENDS HERE ############
+                
+                time.sleep(2)
+
+                # Check if the page contains pagination or is it a single page
+                if not (driver.find_element(By.CLASS_NAME, "pagination_outer")):
+                    print("Currenttly at last page")
+                    return
+
+                WebDriverWait(driver, 20).until(
+                    EC.element_to_be_clickable((By.CLASS_NAME, "pagination_outer"))
+                    # Check if the pagination_outer is loaded, so we can move on to next step
+                )
+
+                # If we cant find the next_button, it means we are at the last page
+                if not (driver.find_elements(By.XPATH, "//*[@title='Next']")):
+                    print("cant find Next")
+                    return
+
+                next_button = driver.find_element(By.XPATH, "//*[@title='Next']")
+                time.sleep(2)
+
+                next_button.click()
+                logging.info('Clicked on Next Button')
+
+                driver.implicitly_wait(5)
+                logging.info('Waited for download to complete')
+                
+            except Exception as e:
+                print("EXCEPTION occurred :",e)
+                logging.error(f'An exception occurred: {str(e)}')
+                return
+            finally:
+                # driver.quit()
+                # self.save_to_db(new_notifs)
+                page_num += 1
+        return new_notifs
+    
+    def download_all_notif_links(self):
+        url = "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListingAll=yes"
+        data = []
+        print("inside download_all_notif_links")
+        
+        options = webdriver.ChromeOptions()
+        options.add_argument('--blink-settings=imagesEnabled=false')
+        options.add_argument("--headless=new")
+        options.add_experimental_option('excludeSwitches', ['enable-logging'])
+
+        driver = webdriver.Chrome(options=options)
+        driver.get(url)
+        
+        page_num = 0
+
+        while(1):
+            print("inside while")
+            try:
+                print(f"Page : {page_num}")
+                # The html contains table which hold info - PDF Title, Data, PDF Viewer Link
+                if (page_num > 220):
+                    time.sleep(5)
+                    ########### GEL HTML/PDF LINKS FROM THE TABLE ###########
+                    html_content = driver.page_source
+                    soup = BeautifulSoup(html_content,'html.parser')
+                    
+                    table = soup.find('table')
+
+                    if(table == None):
+                        return
+                    no_of_rows = len(table.find_all('tr'))
+
+                    print(f"Page : {page_num} | No of rows: {no_of_rows}")
+                # ad-hoc arrangement
+                    all_rows = table.find_all('tr')
+                    if(len(all_rows) == 0):
+                        break
+                    i = 1
+                    for row in all_rows:
+                        # print(row)
+                        if(row == None):
+                            continue
+                        all_table_data_cells = row.find_all('td')
+                        # Exclude the first row
+                        if(len(all_table_data_cells) == 0):
+                            continue
+                        
+                        date_notif = all_table_data_cells[0].text
+                        category_notif = title = all_table_data_cells[1].text
+                        anchor_tag = all_table_data_cells[2].find('a')
+                        title_notif = all_table_data_cells[2].text
+
+                        href_link_notif = anchor_tag.get('href')
+                        
+                        pdf_link_notif = ""
+                        pdf_link_notif = self.get_pdf_url(href_link_notif)
+
+                        print(f"Row {i} extracted")
+                        i += 1
+                        new_row = {
+                            "date" : date_notif,
+                            "category" : category_notif,
+                            "url" : pdf_link_notif,
+                            "title" : title_notif,
+                        }
+
+                        data.append(new_row)
+
+                    ############ ENDS HERE ############
+                    
+                    time.sleep(2)
+
+                    # Check if the page contains pagination or is it a single page
+                    if not (driver.find_element(By.CLASS_NAME, "pagination_outer")):
+                        print("Currenttly at last page")
+                        return
+
+                    WebDriverWait(driver, 20).until(
+                        EC.element_to_be_clickable((By.CLASS_NAME, "pagination_outer"))
+                        # Check if the pagination_outer is loaded, so we can move on to next step
+                    )
+
+                    # If we cant find the next_button, it means we are at the last page
+                    if not (driver.find_elements(By.XPATH, "//*[@title='Next']")):
+                        print("cant find Next")
+                        return
+
+                    next_button = driver.find_element(By.XPATH, "//*[@title='Next']")
+                    time.sleep(2)
+
+                    next_button.click()
+                    logging.info('Clicked on Next Button')
+
+                    driver.implicitly_wait(5)
+                    logging.info('Waited for download to complete')
+                
+                else:
+                    print(f"Not getting deep into row : {page_num}")
+                    time.sleep(2)
+                    
+                    # Check if the page contains pagination or is it a single page
+                    if not (driver.find_element(By.CLASS_NAME, "pagination_outer")):
+                        print("Currenttly at last page")
+                        return
+
+                    WebDriverWait(driver, 20).until(
+                        EC.element_to_be_clickable((By.CLASS_NAME, "pagination_outer"))
+                        # Check if the pagination_outer is loaded, so we can move on to next step
+                    )
+
+                    # If we cant find the next_button, it means we are at the last page
+                    if not (driver.find_elements(By.XPATH, "//*[@title='Next']")):
+                        print("cant find Next")
+                        return
+
+                    next_button = driver.find_element(By.XPATH, "//*[@title='Next']")
+                    time.sleep(2)
+
+                    next_button.click()
+                    logging.info('Clicked on Next Button')
+
+                    driver.implicitly_wait(5)
+                    logging.info('Waited for download to complete')
+                    
+            except Exception as e:
+                print("EXCEPTION occurred :",e)
+                logging.error(f'An exception occurred: {str(e)}')
+                return
+            finally:
+                # driver.quit()
+                self.save_to_db(data)
+                page_num += 1
+                
+        print(data)
+        self.save_to_db(data)
+        
+    def create_mapping_type_to_subtype(self):
+        
+        df = pd.read_csv(globals.urls_of_sebi_menu_csv_path)
+        
+        mapping_type_to_subtype = {}
+        for _,row in df.iterrows():
+            type = row['menu']
+            subtype = row['submenu']
+            mapping_type_to_subtype[subtype] = type
+        
+        return mapping_type_to_subtype
+        
+    def store_new_notifs_to_kb(self,new_notifs):
+        print("storing new notifs into KB")
+        
+        mapping_type_to_subtype = self.create_mapping_type_to_subtype()
+        to_download = []
+        
+        for row in new_notifs:
+
+            date = row['date']
+            category = row['category']
+            url = row['url']
+            title = row['title']
+            
+            # depending on the category(subtype) => find type 
+            category = category.lower()
+            subtype = category.replace(" ","_")
+            type = mapping_type_to_subtype[subtype]
+            
+            print(f"type and subtype extracted : {type} and {subtype}")
+            
+            html_link = url
+            if(html_link.lower().endswith("pdf")):
+                print(html_link)
+                pdf_link = html_link
+            else:
+                pdf_link = self.get_pdf_url(html_link)
+            
+            split_pdf_link = pdf_link.split("/")
+            file_name = split_pdf_link[-1]
+                        
+            new_row = {
+                    "title" : title,
+                    "date" : date,
+                    "html_link" : html_link,
+                    "pdf_link" : pdf_link,
+                    "type": type,
+                    "sub_type" : subtype,
+                    "file_name" : file_name,
+                    "pdf_text" : ""
+                }
+            
+            to_download.append(new_row)
+        
+        print("saving new notifications into csv")
+        df2 = pd.DataFrame(to_download)
+        df2.to_csv(globals.pdf_links_of_all, mode='a', index=False)
+        
+        print("downloading new notifs into respective folders")
+        # for row in 
+        for row in to_download:
+            print("Downloading ..... =>", row['pdf_link'])
+            self.download_pdf_new(row)

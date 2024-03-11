@@ -52,7 +52,7 @@ class SEBIMenuCollector:
                     menu = row['menu']
                     menu = menu.replace(" ","_")
                     menu = menu.lower()
-                    print(menu)
+                    # print(menu)
                     menu_folder = os.path.join(globals.base_folder_path,menu)
                     # Create the base folder if it doesn't exist
                     if not os.path.exists(menu_folder):
@@ -116,11 +116,11 @@ class SEBIMenuCollector:
                 menu = row['menu']
                 submenu = row['submenu']
                 subsubmenu = row['subsubmenu']
-                print(menu, submenu, subsubmenu)
+                # print(menu, submenu, subsubmenu)
                 df.at[i, 'menu'] = menu.replace(" ","_")
                 df.at[i, 'submenu'] = submenu.replace(" ","_")
                 df.at[i, 'subsubmenu'] = subsubmenu.replace(" ","_")
-            print("replaced <space> with <_>")
+            # print("replaced <space> with <_>")
 
             '''df2 maintains historical_data links'''
             df2 = pd.DataFrame(

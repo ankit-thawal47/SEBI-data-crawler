@@ -1,0 +1,580 @@
+2024-03-05 15:00:19,820 - INFO: Current hash val, 21dee387ccc6dac77177c801fc9eb69924537d94ec26d3bf750fb57267d9166b
+2024-03-05 15:00:19,825 - INFO: Most recent row fetched with past_hash_val : f11319a336f0c744517ea3c24d0d5dbd22ee6ad9f6e427a77b7ef958c9a74b90
+2024-03-05 15:00:19,825 - INFO: Hashes of current and past are not equal
+2024-03-05 15:01:11,736 - INFO: No of new notifs : 7
+2024-03-05 15:01:11,736 - INFO: Adding new notifications...
+2024-03-05 15:01:11,736 - INFO: New Notifs detected => Row : {'date': '2024-03-05', 'category': 'Public Issues', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709639588672.pdf', 'title': ' Krystal Integrated Services Limited - RHP'}
+2024-03-05 15:01:11,736 - INFO: New Notifs detected => Row : {'date': '2024-03-05', 'category': 'Public Issues', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709639538642.pdf', 'title': ' Popular Vehicles and Services Ltd - RHP'}
+2024-03-05 15:01:11,736 - INFO: New Notifs detected => Row : {'date': '2024-03-05', 'category': 'Recovery Proceedings', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709634901214.pdf', 'title': ' Remittance Order – RC No. 7494 of 2024 against Mr. Venkataraman Renganathan in the matter of “Cerebra Integrated Technologies Limited'}
+2024-03-05 15:01:11,736 - INFO: New Notifs detected => Row : {'date': '2024-03-04', 'category': 'Recovery Proceedings', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709639456840.pdf', 'title': ' Notice of Demand under Recovery Certificate No. 7724 of 2024 issued against  Girish Nayak (PAN: ABMPN9599G) in the matter of Talwalkars Healthclubs Limited.'}
+2024-03-05 15:01:11,736 - INFO: New Notifs detected => Row : {'date': '2024-03-04', 'category': 'Recovery Proceedings', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709639427943.pdf', 'title': ' Notice of Demand under Recovery Certificate No. 7723 of 2024 issued against  Harsha Bhatkal (PAN: AACPB3100C) in the matter of Talwalkars Healthclubs Limited.'}
+2024-03-05 15:01:11,736 - INFO: New Notifs detected => Row : {'date': '2024-03-04', 'category': 'Recovery Proceedings', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709639401550.pdf', 'title': ' Notice of Demand under Recovery Certificate No. 7722 of 2024 issued against  Anant Gawande (PAN: AABPG3008P)  in the matter of Talwalkars Healthclubs Limited.'}
+2024-03-05 15:01:11,736 - INFO: New Notifs detected => Row : {'date': '2024-03-04', 'category': 'Recovery Proceedings', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709639164225.pdf', 'title': ' Completion of Recovery Certificate No. 7524 of 2024 dated January 18, 2024 issued against Himanshu Agarwal [Defaulter] PAN: AOAPA6806N in the matter of Alps Motor Finance Limited.'}
+2024-03-05 16:00:18,629 - INFO: Current hash val, 21dee387ccc6dac77177c801fc9eb69924537d94ec26d3bf750fb57267d9166b
+2024-03-05 16:00:18,629 - INFO: Most recent row fetched with past_hash_val : f11319a336f0c744517ea3c24d0d5dbd22ee6ad9f6e427a77b7ef958c9a74b90
+2024-03-05 16:00:18,629 - INFO: Hashes of current and past are not equal
+2024-03-05 16:00:31,857 - INFO: No of new notifs : 0
+2024-03-05 16:00:31,857 - INFO: Adding new notifications...
+2024-03-05 17:00:18,514 - INFO: Current hash val, 21dee387ccc6dac77177c801fc9eb69924537d94ec26d3bf750fb57267d9166b
+2024-03-05 17:00:18,515 - INFO: Most recent row fetched with past_hash_val : f11319a336f0c744517ea3c24d0d5dbd22ee6ad9f6e427a77b7ef958c9a74b90
+2024-03-05 17:00:18,515 - INFO: Hashes of current and past are not equal
+2024-03-05 17:00:33,390 - INFO: No of new notifs : 0
+2024-03-05 17:00:33,391 - INFO: Adding new notifications...
+2024-03-05 19:00:19,444 - INFO: Current hash val, 21dee387ccc6dac77177c801fc9eb69924537d94ec26d3bf750fb57267d9166b
+2024-03-05 19:00:19,446 - INFO: Most recent row fetched with past_hash_val : f11319a336f0c744517ea3c24d0d5dbd22ee6ad9f6e427a77b7ef958c9a74b90
+2024-03-05 19:00:19,446 - INFO: Hashes of current and past are not equal
+2024-03-05 19:00:34,167 - INFO: No of new notifs : 0
+2024-03-05 19:00:34,168 - INFO: Adding new notifications...
+2024-03-05 19:56:19,228 - INFO: Current hash val, 21dee387ccc6dac77177c801fc9eb69924537d94ec26d3bf750fb57267d9166b
+2024-03-05 19:56:19,228 - INFO: Most recent row fetched with past_hash_val : f11319a336f0c744517ea3c24d0d5dbd22ee6ad9f6e427a77b7ef958c9a74b90
+2024-03-05 19:56:19,228 - INFO: Hashes of current and past are not equal
+2024-03-05 19:56:34,104 - INFO: No of new notifs : 0
+2024-03-05 19:56:34,105 - INFO: Adding new notifications...
+2024-03-05 19:58:19,167 - INFO: Current hash val, 21dee387ccc6dac77177c801fc9eb69924537d94ec26d3bf750fb57267d9166b
+2024-03-05 19:58:19,175 - INFO: Most recent row fetched with past_hash_val : f11319a336f0c744517ea3c24d0d5dbd22ee6ad9f6e427a77b7ef958c9a74b90
+2024-03-05 19:58:19,175 - INFO: Hashes of current and past are not equal
+2024-03-05 19:58:33,636 - INFO: No of new notifs : 0
+2024-03-05 19:58:33,636 - INFO: Adding new notifications...
+2024-03-05 20:00:18,821 - INFO: Current hash val, 21dee387ccc6dac77177c801fc9eb69924537d94ec26d3bf750fb57267d9166b
+2024-03-05 20:00:18,821 - INFO: Most recent row fetched with past_hash_val : f11319a336f0c744517ea3c24d0d5dbd22ee6ad9f6e427a77b7ef958c9a74b90
+2024-03-05 20:00:18,821 - INFO: Hashes of current and past are not equal
+2024-03-05 20:00:28,243 - INFO: No of new notifs : 0
+2024-03-05 20:00:28,243 - INFO: Adding new notifications...
+2024-03-05 20:02:19,158 - INFO: Current hash val, 21dee387ccc6dac77177c801fc9eb69924537d94ec26d3bf750fb57267d9166b
+2024-03-05 20:02:19,158 - INFO: Most recent row fetched with past_hash_val : f11319a336f0c744517ea3c24d0d5dbd22ee6ad9f6e427a77b7ef958c9a74b90
+2024-03-05 20:02:19,158 - INFO: Hashes of current and past are not equal
+2024-03-05 20:02:33,822 - INFO: No of new notifs : 0
+2024-03-05 20:02:33,822 - INFO: Adding new notifications...
+2024-03-05 20:04:04,225 - INFO: Current hash val, 21dee387ccc6dac77177c801fc9eb69924537d94ec26d3bf750fb57267d9166b
+2024-03-05 20:04:04,226 - INFO: Most recent row fetched with past_hash_val : f11319a336f0c744517ea3c24d0d5dbd22ee6ad9f6e427a77b7ef958c9a74b90
+2024-03-05 20:04:04,226 - INFO: Hashes of current and past are not equal
+2024-03-05 20:04:17,709 - INFO: No of new notifs : 0
+2024-03-05 20:04:17,709 - INFO: Adding new notifications...
+2024-03-05 20:06:13,607 - INFO: Current hash val, 21dee387ccc6dac77177c801fc9eb69924537d94ec26d3bf750fb57267d9166b
+2024-03-05 20:06:13,608 - INFO: Most recent row fetched with past_hash_val : f11319a336f0c744517ea3c24d0d5dbd22ee6ad9f6e427a77b7ef958c9a74b90
+2024-03-05 20:06:13,608 - INFO: Hashes of current and past are not equal
+2024-03-05 20:06:26,904 - INFO: No of new notifs : 0
+2024-03-05 20:06:26,904 - INFO: Adding new notifications...
+2024-03-05 20:08:18,796 - INFO: Current hash val, 21dee387ccc6dac77177c801fc9eb69924537d94ec26d3bf750fb57267d9166b
+2024-03-05 20:08:18,796 - INFO: Most recent row fetched with past_hash_val : f11319a336f0c744517ea3c24d0d5dbd22ee6ad9f6e427a77b7ef958c9a74b90
+2024-03-05 20:08:18,796 - INFO: Hashes of current and past are not equal
+2024-03-05 20:08:32,236 - INFO: No of new notifs : 0
+2024-03-05 20:08:32,237 - INFO: Adding new notifications...
+2024-03-05 20:10:19,517 - INFO: Current hash val, 21dee387ccc6dac77177c801fc9eb69924537d94ec26d3bf750fb57267d9166b
+2024-03-05 20:10:19,518 - INFO: Most recent row fetched with past_hash_val : f11319a336f0c744517ea3c24d0d5dbd22ee6ad9f6e427a77b7ef958c9a74b90
+2024-03-05 20:10:19,518 - INFO: Hashes of current and past are not equal
+2024-03-05 20:10:33,048 - INFO: No of new notifs : 0
+2024-03-05 20:10:33,048 - INFO: Adding new notifications...
+2024-03-05 20:12:19,066 - INFO: Current hash val, 21dee387ccc6dac77177c801fc9eb69924537d94ec26d3bf750fb57267d9166b
+2024-03-05 20:12:19,066 - INFO: Most recent row fetched with past_hash_val : f11319a336f0c744517ea3c24d0d5dbd22ee6ad9f6e427a77b7ef958c9a74b90
+2024-03-05 20:12:19,066 - INFO: Hashes of current and past are not equal
+2024-03-05 20:12:32,494 - INFO: No of new notifs : 0
+2024-03-05 20:12:32,494 - INFO: Adding new notifications...
+2024-03-05 20:14:18,496 - INFO: Current hash val, 21dee387ccc6dac77177c801fc9eb69924537d94ec26d3bf750fb57267d9166b
+2024-03-05 20:14:18,496 - INFO: Most recent row fetched with past_hash_val : f11319a336f0c744517ea3c24d0d5dbd22ee6ad9f6e427a77b7ef958c9a74b90
+2024-03-05 20:14:18,496 - INFO: Hashes of current and past are not equal
+2024-03-05 20:14:33,080 - INFO: No of new notifs : 0
+2024-03-05 20:14:33,081 - INFO: Adding new notifications...
+2024-03-05 20:16:19,008 - INFO: Current hash val, 21dee387ccc6dac77177c801fc9eb69924537d94ec26d3bf750fb57267d9166b
+2024-03-05 20:16:19,009 - INFO: Most recent row fetched with past_hash_val : f11319a336f0c744517ea3c24d0d5dbd22ee6ad9f6e427a77b7ef958c9a74b90
+2024-03-05 20:16:19,009 - INFO: Hashes of current and past are not equal
+2024-03-05 20:16:32,343 - INFO: No of new notifs : 0
+2024-03-05 20:16:32,343 - INFO: Adding new notifications...
+2024-03-05 20:18:19,594 - INFO: Current hash val, 21dee387ccc6dac77177c801fc9eb69924537d94ec26d3bf750fb57267d9166b
+2024-03-05 20:18:19,600 - INFO: Most recent row fetched with past_hash_val : f11319a336f0c744517ea3c24d0d5dbd22ee6ad9f6e427a77b7ef958c9a74b90
+2024-03-05 20:18:19,600 - INFO: Hashes of current and past are not equal
+2024-03-05 20:18:33,354 - INFO: No of new notifs : 0
+2024-03-05 20:18:33,355 - INFO: Adding new notifications...
+2024-03-05 20:20:19,014 - INFO: Current hash val, 21dee387ccc6dac77177c801fc9eb69924537d94ec26d3bf750fb57267d9166b
+2024-03-05 20:20:19,016 - INFO: Most recent row fetched with past_hash_val : f11319a336f0c744517ea3c24d0d5dbd22ee6ad9f6e427a77b7ef958c9a74b90
+2024-03-05 20:20:19,016 - INFO: Hashes of current and past are not equal
+2024-03-05 20:20:33,812 - INFO: No of new notifs : 0
+2024-03-05 20:20:33,812 - INFO: Adding new notifications...
+2024-03-05 20:22:08,808 - INFO: Current hash val, 21dee387ccc6dac77177c801fc9eb69924537d94ec26d3bf750fb57267d9166b
+2024-03-05 20:22:08,809 - INFO: Most recent row fetched with past_hash_val : f11319a336f0c744517ea3c24d0d5dbd22ee6ad9f6e427a77b7ef958c9a74b90
+2024-03-05 20:22:08,809 - INFO: Hashes of current and past are not equal
+2024-03-05 20:22:27,129 - INFO: No of new notifs : 0
+2024-03-05 20:22:27,129 - INFO: Adding new notifications...
+2024-03-05 20:24:07,789 - INFO: Current hash val, 21dee387ccc6dac77177c801fc9eb69924537d94ec26d3bf750fb57267d9166b
+2024-03-05 20:24:07,789 - INFO: Most recent row fetched with past_hash_val : f11319a336f0c744517ea3c24d0d5dbd22ee6ad9f6e427a77b7ef958c9a74b90
+2024-03-05 20:24:07,790 - INFO: Hashes of current and past are not equal
+2024-03-05 20:24:17,557 - INFO: No of new notifs : 0
+2024-03-05 20:24:17,557 - INFO: Adding new notifications...
+2024-03-05 20:26:06,820 - INFO: Current hash val, 21dee387ccc6dac77177c801fc9eb69924537d94ec26d3bf750fb57267d9166b
+2024-03-05 20:26:06,821 - INFO: Most recent row fetched with past_hash_val : f11319a336f0c744517ea3c24d0d5dbd22ee6ad9f6e427a77b7ef958c9a74b90
+2024-03-05 20:26:06,821 - INFO: Hashes of current and past are not equal
+2024-03-05 20:26:15,225 - INFO: No of new notifs : 0
+2024-03-05 20:26:15,226 - INFO: Adding new notifications...
+2024-03-05 20:28:04,386 - INFO: Current hash val, 21dee387ccc6dac77177c801fc9eb69924537d94ec26d3bf750fb57267d9166b
+2024-03-05 20:28:04,386 - INFO: Most recent row fetched with past_hash_val : f11319a336f0c744517ea3c24d0d5dbd22ee6ad9f6e427a77b7ef958c9a74b90
+2024-03-05 20:28:04,386 - INFO: Hashes of current and past are not equal
+2024-03-05 20:28:12,587 - INFO: No of new notifs : 0
+2024-03-05 20:28:12,587 - INFO: Adding new notifications...
+2024-03-05 20:30:03,531 - INFO: Current hash val, 21dee387ccc6dac77177c801fc9eb69924537d94ec26d3bf750fb57267d9166b
+2024-03-05 20:30:03,531 - INFO: Most recent row fetched with past_hash_val : f11319a336f0c744517ea3c24d0d5dbd22ee6ad9f6e427a77b7ef958c9a74b90
+2024-03-05 20:30:03,531 - INFO: Hashes of current and past are not equal
+2024-03-05 20:30:12,060 - INFO: No of new notifs : 0
+2024-03-05 20:30:12,061 - INFO: Adding new notifications...
+2024-03-05 20:32:04,441 - INFO: Current hash val, 21dee387ccc6dac77177c801fc9eb69924537d94ec26d3bf750fb57267d9166b
+2024-03-05 20:32:04,442 - INFO: Most recent row fetched with past_hash_val : f11319a336f0c744517ea3c24d0d5dbd22ee6ad9f6e427a77b7ef958c9a74b90
+2024-03-05 20:32:04,442 - INFO: Hashes of current and past are not equal
+2024-03-05 20:32:12,819 - INFO: No of new notifs : 0
+2024-03-05 20:32:12,819 - INFO: Adding new notifications...
+2024-03-05 20:34:03,835 - INFO: Current hash val, 21dee387ccc6dac77177c801fc9eb69924537d94ec26d3bf750fb57267d9166b
+2024-03-05 20:34:03,836 - INFO: Most recent row fetched with past_hash_val : f11319a336f0c744517ea3c24d0d5dbd22ee6ad9f6e427a77b7ef958c9a74b90
+2024-03-05 20:34:03,836 - INFO: Hashes of current and past are not equal
+2024-03-05 20:34:13,613 - INFO: No of new notifs : 0
+2024-03-05 20:34:13,613 - INFO: Adding new notifications...
+2024-03-05 20:36:03,367 - INFO: Current hash val, 21dee387ccc6dac77177c801fc9eb69924537d94ec26d3bf750fb57267d9166b
+2024-03-05 20:36:03,368 - INFO: Most recent row fetched with past_hash_val : f11319a336f0c744517ea3c24d0d5dbd22ee6ad9f6e427a77b7ef958c9a74b90
+2024-03-05 20:36:03,368 - INFO: Hashes of current and past are not equal
+2024-03-05 20:36:11,614 - INFO: No of new notifs : 0
+2024-03-05 20:36:11,614 - INFO: Adding new notifications...
+2024-03-05 20:38:03,588 - INFO: Current hash val, 21dee387ccc6dac77177c801fc9eb69924537d94ec26d3bf750fb57267d9166b
+2024-03-05 20:38:03,589 - INFO: Most recent row fetched with past_hash_val : f11319a336f0c744517ea3c24d0d5dbd22ee6ad9f6e427a77b7ef958c9a74b90
+2024-03-05 20:38:03,589 - INFO: Hashes of current and past are not equal
+2024-03-05 20:38:13,152 - INFO: No of new notifs : 0
+2024-03-05 20:38:13,152 - INFO: Adding new notifications...
+2024-03-05 20:40:04,141 - INFO: Current hash val, 21dee387ccc6dac77177c801fc9eb69924537d94ec26d3bf750fb57267d9166b
+2024-03-05 20:40:04,141 - INFO: Most recent row fetched with past_hash_val : f11319a336f0c744517ea3c24d0d5dbd22ee6ad9f6e427a77b7ef958c9a74b90
+2024-03-05 20:40:04,142 - INFO: Hashes of current and past are not equal
+2024-03-05 20:40:12,437 - INFO: No of new notifs : 0
+2024-03-05 20:40:12,437 - INFO: Adding new notifications...
+2024-03-05 20:42:08,907 - INFO: Current hash val, 21dee387ccc6dac77177c801fc9eb69924537d94ec26d3bf750fb57267d9166b
+2024-03-05 20:42:08,908 - INFO: Most recent row fetched with past_hash_val : f11319a336f0c744517ea3c24d0d5dbd22ee6ad9f6e427a77b7ef958c9a74b90
+2024-03-05 20:42:08,908 - INFO: Hashes of current and past are not equal
+2024-03-05 20:42:17,102 - INFO: No of new notifs : 0
+2024-03-05 20:42:17,102 - INFO: Adding new notifications...
+2024-03-05 20:44:08,004 - INFO: Current hash val, 21dee387ccc6dac77177c801fc9eb69924537d94ec26d3bf750fb57267d9166b
+2024-03-05 20:44:08,004 - INFO: Most recent row fetched with past_hash_val : f11319a336f0c744517ea3c24d0d5dbd22ee6ad9f6e427a77b7ef958c9a74b90
+2024-03-05 20:44:08,004 - INFO: Hashes of current and past are not equal
+2024-03-05 20:44:16,368 - INFO: No of new notifs : 0
+2024-03-05 20:44:16,368 - INFO: Adding new notifications...
+2024-03-05 20:46:04,141 - INFO: Current hash val, 21dee387ccc6dac77177c801fc9eb69924537d94ec26d3bf750fb57267d9166b
+2024-03-05 20:46:04,142 - INFO: Most recent row fetched with past_hash_val : f11319a336f0c744517ea3c24d0d5dbd22ee6ad9f6e427a77b7ef958c9a74b90
+2024-03-05 20:46:04,142 - INFO: Hashes of current and past are not equal
+2024-03-05 20:46:15,969 - INFO: No of new notifs : 0
+2024-03-05 20:46:15,969 - INFO: Adding new notifications...
+2024-03-05 20:48:08,032 - INFO: Current hash val, 21dee387ccc6dac77177c801fc9eb69924537d94ec26d3bf750fb57267d9166b
+2024-03-05 20:48:08,033 - INFO: Most recent row fetched with past_hash_val : f11319a336f0c744517ea3c24d0d5dbd22ee6ad9f6e427a77b7ef958c9a74b90
+2024-03-05 20:48:08,033 - INFO: Hashes of current and past are not equal
+2024-03-05 20:48:16,321 - INFO: No of new notifs : 0
+2024-03-05 20:48:16,321 - INFO: Adding new notifications...
+2024-03-05 20:50:05,345 - INFO: Current hash val, 21dee387ccc6dac77177c801fc9eb69924537d94ec26d3bf750fb57267d9166b
+2024-03-05 20:50:05,346 - INFO: Most recent row fetched with past_hash_val : f11319a336f0c744517ea3c24d0d5dbd22ee6ad9f6e427a77b7ef958c9a74b90
+2024-03-05 20:50:05,346 - INFO: Hashes of current and past are not equal
+2024-03-05 20:50:13,717 - INFO: No of new notifs : 0
+2024-03-05 20:50:13,717 - INFO: Adding new notifications...
+2024-03-05 20:52:03,690 - INFO: Current hash val, 21dee387ccc6dac77177c801fc9eb69924537d94ec26d3bf750fb57267d9166b
+2024-03-05 20:52:03,691 - INFO: Most recent row fetched with past_hash_val : f11319a336f0c744517ea3c24d0d5dbd22ee6ad9f6e427a77b7ef958c9a74b90
+2024-03-05 20:52:03,691 - INFO: Hashes of current and past are not equal
+2024-03-05 20:52:12,093 - INFO: No of new notifs : 0
+2024-03-05 20:52:12,094 - INFO: Adding new notifications...
+2024-03-05 20:54:03,956 - INFO: Current hash val, 21dee387ccc6dac77177c801fc9eb69924537d94ec26d3bf750fb57267d9166b
+2024-03-05 20:54:03,957 - INFO: Most recent row fetched with past_hash_val : f11319a336f0c744517ea3c24d0d5dbd22ee6ad9f6e427a77b7ef958c9a74b90
+2024-03-05 20:54:03,957 - INFO: Hashes of current and past are not equal
+2024-03-05 20:54:16,255 - INFO: No of new notifs : 0
+2024-03-05 20:54:16,255 - INFO: Adding new notifications...
+2024-03-05 20:56:05,739 - INFO: Current hash val, 21dee387ccc6dac77177c801fc9eb69924537d94ec26d3bf750fb57267d9166b
+2024-03-05 20:56:05,739 - INFO: Most recent row fetched with past_hash_val : f11319a336f0c744517ea3c24d0d5dbd22ee6ad9f6e427a77b7ef958c9a74b90
+2024-03-05 20:56:05,740 - INFO: Hashes of current and past are not equal
+2024-03-05 20:56:14,153 - INFO: No of new notifs : 0
+2024-03-05 20:56:14,153 - INFO: Adding new notifications...
+2024-03-05 20:58:03,302 - INFO: Current hash val, 21dee387ccc6dac77177c801fc9eb69924537d94ec26d3bf750fb57267d9166b
+2024-03-05 20:58:03,303 - INFO: Most recent row fetched with past_hash_val : f11319a336f0c744517ea3c24d0d5dbd22ee6ad9f6e427a77b7ef958c9a74b90
+2024-03-05 20:58:03,303 - INFO: Hashes of current and past are not equal
+2024-03-05 20:58:15,385 - INFO: No of new notifs : 0
+2024-03-05 20:58:15,385 - INFO: Adding new notifications...
+2024-03-05 21:00:04,528 - INFO: Current hash val, 21dee387ccc6dac77177c801fc9eb69924537d94ec26d3bf750fb57267d9166b
+2024-03-05 21:00:04,529 - INFO: Most recent row fetched with past_hash_val : f11319a336f0c744517ea3c24d0d5dbd22ee6ad9f6e427a77b7ef958c9a74b90
+2024-03-05 21:00:04,529 - INFO: Hashes of current and past are not equal
+2024-03-05 21:00:12,783 - INFO: No of new notifs : 0
+2024-03-05 21:00:12,783 - INFO: Adding new notifications...
+2024-03-06 00:00:04,171 - INFO: Current hash val, 21dee387ccc6dac77177c801fc9eb69924537d94ec26d3bf750fb57267d9166b
+2024-03-06 00:00:04,172 - INFO: Most recent row fetched with past_hash_val : f11319a336f0c744517ea3c24d0d5dbd22ee6ad9f6e427a77b7ef958c9a74b90
+2024-03-06 00:00:04,172 - INFO: Hashes of current and past are not equal
+2024-03-06 00:00:12,897 - INFO: No of new notifs : 0
+2024-03-06 00:00:12,897 - INFO: Adding new notifications...
+2024-03-06 03:00:18,684 - INFO: Current hash val, 21dee387ccc6dac77177c801fc9eb69924537d94ec26d3bf750fb57267d9166b
+2024-03-06 03:00:18,686 - INFO: Most recent row fetched with past_hash_val : 21dee387ccc6dac77177c801fc9eb69924537d94ec26d3bf750fb57267d9166b
+2024-03-06 03:00:18,686 - INFO: Hashes are equal => no new notifs
+2024-03-06 06:00:19,531 - INFO: Current hash val, 296b193b59dd4f4f796603027042600e93814b5e63c0a2843e4d9a2c3973fb10
+2024-03-06 06:00:19,532 - INFO: Most recent row fetched with past_hash_val : 21dee387ccc6dac77177c801fc9eb69924537d94ec26d3bf750fb57267d9166b
+2024-03-06 06:00:19,532 - INFO: Hashes of current and past are not equal
+2024-03-06 06:00:44,423 - INFO: No of new notifs : 2
+2024-03-06 06:00:44,424 - INFO: Adding new notifications...
+2024-03-06 06:00:44,424 - INFO: New Notifs detected => Row : {'date': '2024-03-06', 'category': 'Public Issues', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709704793354.pdf', 'title': ' Interiors & More Limited - SME Issue - Prospectus'}
+2024-03-06 06:00:44,424 - INFO: New Notifs detected => Row : {'date': '2024-03-05', 'category': 'Recovery Proceedings', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709703847704.pdf', 'title': ' Notice of Demand dated 05.03.2024 issued in RC No. 7725 of 2024 drawn against Shri Yudhisthir D Khatau (PAN: AAHPK2447A) in the matter of Varun Global Limited and Varun Resources Limited'}
+2024-03-06 09:00:19,185 - INFO: Current hash val, 296b193b59dd4f4f796603027042600e93814b5e63c0a2843e4d9a2c3973fb10
+2024-03-06 09:00:19,186 - INFO: Most recent row fetched with past_hash_val : 296b193b59dd4f4f796603027042600e93814b5e63c0a2843e4d9a2c3973fb10
+2024-03-06 09:00:19,186 - INFO: Hashes are equal => no new notifs
+2024-03-06 12:00:13,295 - INFO: Current hash val, 98fc8dcd29b439674e9085364f7df9ef11e228e75cba1fd1b2f8961318900fb5
+2024-03-06 12:00:13,302 - INFO: Most recent row fetched with past_hash_val : 296b193b59dd4f4f796603027042600e93814b5e63c0a2843e4d9a2c3973fb10
+2024-03-06 12:00:13,302 - INFO: Hashes of current and past are not equal
+2024-03-06 12:01:12,808 - INFO: No of new notifs : 7
+2024-03-06 12:01:12,810 - INFO: Adding new notifications...
+2024-03-06 12:01:12,811 - INFO: [{'date': '2024-03-06', 'category': 'Public Notices', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709725901582.pdf', 'title': ' Public Notice in respect of SEBI ISO Settlement Scheme, 2024'}, {'date': '2024-03-06', 'category': 'Orders', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709725803177_1.pdf', 'title': ' Adjudication Order in the matter of Niraj Cement Structurals Limited\n'}, {'date': '2024-03-06', 'category': 'Recovery Proceedings', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709725523570.pdf', 'title': ' Completion of Recovery Certificate No. 7688/2024 against Mr. Raghuveer  in the matter of Arvind Remedies Limited'}, {'date': '2024-03-06', 'category': 'Orders', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709723578278.pdf', 'title': ' Appeal No. 5924 of 2024 filed by Ponnamma Mani'}, {'date': '2024-03-06', 'category': 'Orders', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709723553735.pdf', 'title': ' Appeal Nos. 5923 of 2024 filed by Vijaykumar Vasudev Ankam'}, {'date': '2024-03-06', 'category': 'Orders', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709723530602.pdf', 'title': ' Appeal No. 5922 of 2024 filed by Anant Kankani'}, {'date': '2024-03-06', 'category': 'Public Issues', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709723234653.pdf', 'title': ' Ceigall India Limited - DRHP'}]
+2024-03-06 12:01:12,811 - INFO: New Notifs detected => Row : {'date': '2024-03-06', 'category': 'Public Notices', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709725901582.pdf', 'title': ' Public Notice in respect of SEBI ISO Settlement Scheme, 2024'}
+2024-03-06 12:01:12,811 - INFO: New Notifs detected => Row : {'date': '2024-03-06', 'category': 'Orders', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709725803177_1.pdf', 'title': ' Adjudication Order in the matter of Niraj Cement Structurals Limited\n'}
+2024-03-06 12:01:12,812 - INFO: New Notifs detected => Row : {'date': '2024-03-06', 'category': 'Recovery Proceedings', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709725523570.pdf', 'title': ' Completion of Recovery Certificate No. 7688/2024 against Mr. Raghuveer  in the matter of Arvind Remedies Limited'}
+2024-03-06 12:01:12,812 - INFO: New Notifs detected => Row : {'date': '2024-03-06', 'category': 'Orders', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709723578278.pdf', 'title': ' Appeal No. 5924 of 2024 filed by Ponnamma Mani'}
+2024-03-06 12:01:12,812 - INFO: New Notifs detected => Row : {'date': '2024-03-06', 'category': 'Orders', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709723553735.pdf', 'title': ' Appeal Nos. 5923 of 2024 filed by Vijaykumar Vasudev Ankam'}
+2024-03-06 12:01:12,813 - INFO: New Notifs detected => Row : {'date': '2024-03-06', 'category': 'Orders', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709723530602.pdf', 'title': ' Appeal No. 5922 of 2024 filed by Anant Kankani'}
+2024-03-06 12:01:12,813 - INFO: New Notifs detected => Row : {'date': '2024-03-06', 'category': 'Public Issues', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709723234653.pdf', 'title': ' Ceigall India Limited - DRHP'}
+2024-03-07 06:00:18,976 - INFO: Current hash val, 42ab34e9f90676e277666c01e5895bbf3fe30ec7e4d9b1b7081fe8c83f35d7ed
+2024-03-07 06:00:18,981 - INFO: Most recent row fetched with past_hash_val : 98fc8dcd29b439674e9085364f7df9ef11e228e75cba1fd1b2f8961318900fb5
+2024-03-07 06:00:18,981 - INFO: Hashes of current and past are not equal
+2024-03-07 06:00:59,954 - INFO: No of new notifs : 6
+2024-03-07 06:00:59,954 - INFO: Adding new notifications...
+2024-03-07 06:00:59,955 - INFO: [{'date': '2024-03-07', 'category': 'Public Issues', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709786873651.pdf', 'title': ' GPT Healthcare Limited - Prospectus'}, {'date': '2024-03-06', 'category': 'Recovery Proceedings', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709784651444.pdf', 'title': ' Notices of Attachment dated 06.03.2024 in Recovery Certificate No. 7581 of 2024 issued against Vinay Bhushan Pendyala (PAN: BXMPP1272K) in the matter of Safal Herbs Limited (formerly known as Parikh Herbals Limited)'}, {'date': '2024-03-06', 'category': 'Recovery Proceedings', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709783797115.pdf', 'title': ' Notice of Demand under Recovery Certificate number 7728 of 2024 dated March 06, 2024 issued to Devender Kumar Jain [Defaulter] PAN: AETPJ9387E in the matter of JMD Telefilms Industries Ltd.: under Recovery Certificate No. 7728 of 2024.'}, {'date': '2024-03-06', 'category': 'Recovery Proceedings', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709783771527.pdf', 'title': ' Notice of Demand under Recovery Certificate number 7727 of 2024 dated March 06, 2024 issued to D. K. Jain & Sons HUF [Defaulter] PAN: AAAHD3061N in the matter of JMD Telefilms Industries Ltd.: under Recovery Certificate No. 7727 of 2024.'}, {'date': '2024-03-06', 'category': 'Recovery Proceedings', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709783742614.pdf', 'title': ' Notice of Demand under Recovery Certificate number 7726 of 2024 dated March 06, 2024 issued to Dinesh Kumar Parasrampuria [Defaulter] PAN: AFCPP1404J in the matter of JMD Telefilms Industries Ltd.: under Recovery Certificate No. 7726 of 2024.'}, {'date': '2024-03-06', 'category': 'Recovery Proceedings', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709726559817.pdf', 'title': ' Completion of Recovery Certificate No. 7680 of 2024 issued against  Anant Gawande (PAN: AABPG3008P) in the matter of Talwalkars Better Value Fitness Limited.'}]
+2024-03-07 06:00:59,955 - INFO: New Notifs detected => Row : {'date': '2024-03-07', 'category': 'Public Issues', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709786873651.pdf', 'title': ' GPT Healthcare Limited - Prospectus'}
+2024-03-07 06:00:59,955 - INFO: New Notifs detected => Row : {'date': '2024-03-06', 'category': 'Recovery Proceedings', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709784651444.pdf', 'title': ' Notices of Attachment dated 06.03.2024 in Recovery Certificate No. 7581 of 2024 issued against Vinay Bhushan Pendyala (PAN: BXMPP1272K) in the matter of Safal Herbs Limited (formerly known as Parikh Herbals Limited)'}
+2024-03-07 06:00:59,955 - INFO: New Notifs detected => Row : {'date': '2024-03-06', 'category': 'Recovery Proceedings', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709783797115.pdf', 'title': ' Notice of Demand under Recovery Certificate number 7728 of 2024 dated March 06, 2024 issued to Devender Kumar Jain [Defaulter] PAN: AETPJ9387E in the matter of JMD Telefilms Industries Ltd.: under Recovery Certificate No. 7728 of 2024.'}
+2024-03-07 06:00:59,955 - INFO: New Notifs detected => Row : {'date': '2024-03-06', 'category': 'Recovery Proceedings', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709783771527.pdf', 'title': ' Notice of Demand under Recovery Certificate number 7727 of 2024 dated March 06, 2024 issued to D. K. Jain & Sons HUF [Defaulter] PAN: AAAHD3061N in the matter of JMD Telefilms Industries Ltd.: under Recovery Certificate No. 7727 of 2024.'}
+2024-03-07 06:00:59,955 - INFO: New Notifs detected => Row : {'date': '2024-03-06', 'category': 'Recovery Proceedings', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709783742614.pdf', 'title': ' Notice of Demand under Recovery Certificate number 7726 of 2024 dated March 06, 2024 issued to Dinesh Kumar Parasrampuria [Defaulter] PAN: AFCPP1404J in the matter of JMD Telefilms Industries Ltd.: under Recovery Certificate No. 7726 of 2024.'}
+2024-03-07 06:00:59,955 - INFO: New Notifs detected => Row : {'date': '2024-03-06', 'category': 'Recovery Proceedings', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709726559817.pdf', 'title': ' Completion of Recovery Certificate No. 7680 of 2024 issued against  Anant Gawande (PAN: AABPG3008P) in the matter of Talwalkars Better Value Fitness Limited.'}
+2024-03-07 09:00:18,946 - INFO: Current hash val, 9c6d08bf18989a1b93fd6e518c5aee7f13b34b91f3db06f910d3766d1a188603
+2024-03-07 09:00:18,949 - INFO: Most recent row fetched with past_hash_val : 42ab34e9f90676e277666c01e5895bbf3fe30ec7e4d9b1b7081fe8c83f35d7ed
+2024-03-07 09:00:18,950 - INFO: Hashes of current and past are not equal
+2024-03-07 09:00:54,742 - INFO: No of new notifs : 4
+2024-03-07 09:00:54,743 - INFO: Adding new notifications...
+2024-03-07 09:00:54,743 - INFO: [{'date': '2024-03-07', 'category': 'Takeovers', 'url': 'https://www.sebi.gov.in/sebi_data/commondocs/mar-2024/Continental_Controls_PA_p.pdf', 'title': ' Continental Controls Limited'}, {'date': '2024-03-07', 'category': 'Notice For Meeting on Schemes', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709793665666.pdf', 'title': ' Notice convening the meeting of the Equity Shareholders of INDO Amines Limited pursuant to the orders dated January 8, 2024 and  February 12, 2024 of the Hon’ble National Company Law Tribunal, Mumbai Bench'}, {'date': '2024-03-07', 'category': 'Unserved Summons / Notices', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709793442770.pdf', 'title': ' Unserved Notice for Summary Settlement dated August 14, 2023 in the matter of Cressanda Solutions Limited issued to Smart Infraproperties Private Limited'}, {'date': '2024-03-07', 'category': 'Public Issues', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709793395468.pdf', 'title': ' Mukka Proteins Limited - Prospectus'}]
+2024-03-07 09:00:54,743 - INFO: New Notifs detected => Row : {'date': '2024-03-07', 'category': 'Takeovers', 'url': 'https://www.sebi.gov.in/sebi_data/commondocs/mar-2024/Continental_Controls_PA_p.pdf', 'title': ' Continental Controls Limited'}
+2024-03-07 09:00:54,743 - INFO: New Notifs detected => Row : {'date': '2024-03-07', 'category': 'Notice For Meeting on Schemes', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709793665666.pdf', 'title': ' Notice convening the meeting of the Equity Shareholders of INDO Amines Limited pursuant to the orders dated January 8, 2024 and  February 12, 2024 of the Hon’ble National Company Law Tribunal, Mumbai Bench'}
+2024-03-07 09:00:54,743 - INFO: New Notifs detected => Row : {'date': '2024-03-07', 'category': 'Unserved Summons / Notices', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709793442770.pdf', 'title': ' Unserved Notice for Summary Settlement dated August 14, 2023 in the matter of Cressanda Solutions Limited issued to Smart Infraproperties Private Limited'}
+2024-03-07 09:00:54,743 - INFO: New Notifs detected => Row : {'date': '2024-03-07', 'category': 'Public Issues', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709793395468.pdf', 'title': ' Mukka Proteins Limited - Prospectus'}
+2024-03-07 12:00:19,596 - INFO: Current hash val, 647d84842dc795935828b5056e0763a527ca84940e46f9934ce714f470457753
+2024-03-07 12:00:19,604 - INFO: Most recent row fetched with past_hash_val : 9c6d08bf18989a1b93fd6e518c5aee7f13b34b91f3db06f910d3766d1a188603
+2024-03-07 12:00:19,604 - INFO: Hashes of current and past are not equal
+2024-03-07 12:00:40,632 - INFO: No of new notifs : 1
+2024-03-07 12:00:40,634 - INFO: Adding new notifications...
+2024-03-07 12:00:40,634 - INFO: [{'date': '2024-03-07', 'category': 'Orders', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709811839484.pdf', 'title': ' Interim Ex Parte Order in the matter of JM Financial Limited'}]
+2024-03-07 12:00:40,634 - INFO: New Notifs detected => Row : {'date': '2024-03-07', 'category': 'Orders', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709811839484.pdf', 'title': ' Interim Ex Parte Order in the matter of JM Financial Limited'}
+2024-03-07 15:00:19,157 - INFO: Current hash val, f4ac7271d338e894f08488ca634e46ac200019e17c9171acc143fda79901714b
+2024-03-07 15:00:19,163 - INFO: Most recent row fetched with past_hash_val : 647d84842dc795935828b5056e0763a527ca84940e46f9934ce714f470457753
+2024-03-07 15:00:19,163 - INFO: Hashes of current and past are not equal
+2024-03-07 15:00:53,655 - INFO: No of new notifs : 4
+2024-03-07 15:00:53,655 - INFO: Adding new notifications...
+2024-03-07 15:00:53,655 - INFO: [{'date': '2024-03-07', 'category': 'Orders', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709815580553.pdf', 'title': ' Appeal No. 5927 of 2024 filed by Upasana Gohain'}, {'date': '2024-03-07', 'category': 'Orders', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709815554880.pdf', 'title': ' Appeal Nos. 5926 of 2024 filed by Sapan Shrivastava'}, {'date': '2024-03-07', 'category': 'Orders', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709815526242.pdf', 'title': ' Appeal No. 5925 of 2024 filed by Sapan Shrivastava'}, {'date': '2024-03-07', 'category': 'Orders', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709814002950_1.pdf', 'title': ' Adjudication Order in the matter of Power and Instrumentation Gujarat Limited'}]
+2024-03-07 15:00:53,655 - INFO: New Notifs detected => Row : {'date': '2024-03-07', 'category': 'Orders', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709815580553.pdf', 'title': ' Appeal No. 5927 of 2024 filed by Upasana Gohain'}
+2024-03-07 15:00:53,655 - INFO: New Notifs detected => Row : {'date': '2024-03-07', 'category': 'Orders', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709815554880.pdf', 'title': ' Appeal Nos. 5926 of 2024 filed by Sapan Shrivastava'}
+2024-03-07 15:00:53,655 - INFO: New Notifs detected => Row : {'date': '2024-03-07', 'category': 'Orders', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709815526242.pdf', 'title': ' Appeal No. 5925 of 2024 filed by Sapan Shrivastava'}
+2024-03-07 15:00:53,656 - INFO: New Notifs detected => Row : {'date': '2024-03-07', 'category': 'Orders', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709814002950_1.pdf', 'title': ' Adjudication Order in the matter of Power and Instrumentation Gujarat Limited'}
+2024-03-07 18:00:03,525 - INFO: Current hash val, f4ac7271d338e894f08488ca634e46ac200019e17c9171acc143fda79901714b
+2024-03-07 18:00:03,526 - INFO: Most recent row fetched with past_hash_val : f4ac7271d338e894f08488ca634e46ac200019e17c9171acc143fda79901714b
+2024-03-07 18:00:03,526 - INFO: Hashes are equal => no new notifs
+2024-03-07 21:00:18,544 - INFO: Current hash val, 35ea893d70fb7381073bc8bf6b90e5ee2c51e9d14bb0f96c70ec75403d92cb6a
+2024-03-07 21:00:18,550 - INFO: Most recent row fetched with past_hash_val : f4ac7271d338e894f08488ca634e46ac200019e17c9171acc143fda79901714b
+2024-03-07 21:00:18,550 - INFO: Hashes of current and past are not equal
+2024-03-07 21:00:37,587 - INFO: No of new notifs : 1
+2024-03-07 21:00:37,587 - INFO: Adding new notifications...
+2024-03-07 21:00:37,587 - INFO: [{'date': '2024-03-08', 'category': 'Reports', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709834924210.pdf', 'title': ' Extension of timeline for submission of public comments on the consultation Paper on Consultation Paper to Revise and Revamp Nomination in Securities Market'}]
+2024-03-07 21:00:37,587 - INFO: New Notifs detected => Row : {'date': '2024-03-08', 'category': 'Reports', 'url': 'https://www.sebi.gov.in/web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/mar-2024/1709834924210.pdf', 'title': ' Extension of timeline for submission of public comments on the consultation Paper on Consultation Paper to Revise and Revamp Nomination in Securities Market'}
+2024-03-08 00:00:07,189 - INFO: Current hash val, 35ea893d70fb7381073bc8bf6b90e5ee2c51e9d14bb0f96c70ec75403d92cb6a
+2024-03-08 00:00:07,189 - INFO: Most recent row fetched with past_hash_val : f4ac7271d338e894f08488ca634e46ac200019e17c9171acc143fda79901714b
+2024-03-08 00:00:07,189 - INFO: Hashes of current and past are not equal
+2024-03-08 00:00:16,243 - INFO: No of new notifs : 0
+2024-03-08 00:00:16,243 - INFO: Adding new notifications...
+2024-03-08 00:00:16,243 - INFO: []
+2024-03-08 03:00:18,751 - INFO: Current hash val, 35ea893d70fb7381073bc8bf6b90e5ee2c51e9d14bb0f96c70ec75403d92cb6a
+2024-03-08 03:00:18,752 - INFO: Most recent row fetched with past_hash_val : 35ea893d70fb7381073bc8bf6b90e5ee2c51e9d14bb0f96c70ec75403d92cb6a
+2024-03-08 03:00:18,752 - INFO: Hashes are equal => no new notifs
+2024-03-08 06:00:20,740 - INFO: Current hash val, 35ea893d70fb7381073bc8bf6b90e5ee2c51e9d14bb0f96c70ec75403d92cb6a
+2024-03-08 06:00:20,751 - INFO: Most recent row fetched with past_hash_val : 35ea893d70fb7381073bc8bf6b90e5ee2c51e9d14bb0f96c70ec75403d92cb6a
+2024-03-08 06:00:20,752 - INFO: Hashes are equal => no new notifs
+2024-03-08 09:06:32,115 - INFO: Current hash val, 35ea893d70fb7381073bc8bf6b90e5ee2c51e9d14bb0f96c70ec75403d92cb6a
+2024-03-08 09:06:32,124 - INFO: Most recent row fetched with past_hash_val : 35ea893d70fb7381073bc8bf6b90e5ee2c51e9d14bb0f96c70ec75403d92cb6a
+2024-03-08 09:06:32,124 - INFO: Hashes are equal => no new notifs
+2024-03-08 12:00:18,622 - INFO: Current hash val, 35ea893d70fb7381073bc8bf6b90e5ee2c51e9d14bb0f96c70ec75403d92cb6a
+2024-03-08 12:00:18,623 - INFO: Most recent row fetched with past_hash_val : 35ea893d70fb7381073bc8bf6b90e5ee2c51e9d14bb0f96c70ec75403d92cb6a
+2024-03-08 12:00:18,623 - INFO: Hashes are equal => no new notifs
+2024-03-08 15:00:18,984 - INFO: Current hash val, 35ea893d70fb7381073bc8bf6b90e5ee2c51e9d14bb0f96c70ec75403d92cb6a
+2024-03-08 15:00:18,985 - INFO: Most recent row fetched with past_hash_val : 35ea893d70fb7381073bc8bf6b90e5ee2c51e9d14bb0f96c70ec75403d92cb6a
+2024-03-08 15:00:18,985 - INFO: Hashes are equal => no new notifs
+2024-03-08 18:00:19,128 - INFO: Current hash val, 35ea893d70fb7381073bc8bf6b90e5ee2c51e9d14bb0f96c70ec75403d92cb6a
+2024-03-08 18:00:19,128 - INFO: Most recent row fetched with past_hash_val : 35ea893d70fb7381073bc8bf6b90e5ee2c51e9d14bb0f96c70ec75403d92cb6a
+2024-03-08 18:00:19,128 - INFO: Hashes are equal => no new notifs
+2024-03-08 21:00:19,672 - INFO: Current hash val, 35ea893d70fb7381073bc8bf6b90e5ee2c51e9d14bb0f96c70ec75403d92cb6a
+2024-03-08 21:00:19,676 - INFO: Most recent row fetched with past_hash_val : 35ea893d70fb7381073bc8bf6b90e5ee2c51e9d14bb0f96c70ec75403d92cb6a
+2024-03-08 21:00:19,677 - INFO: Hashes are equal => no new notifs
+2024-03-09 00:00:04,074 - INFO: Current hash val, 35ea893d70fb7381073bc8bf6b90e5ee2c51e9d14bb0f96c70ec75403d92cb6a
+2024-03-09 00:00:04,078 - INFO: Most recent row fetched with past_hash_val : 35ea893d70fb7381073bc8bf6b90e5ee2c51e9d14bb0f96c70ec75403d92cb6a
+2024-03-09 00:00:04,078 - INFO: Hashes are equal => no new notifs
+2024-03-09 03:00:18,405 - INFO: Current hash val, 35ea893d70fb7381073bc8bf6b90e5ee2c51e9d14bb0f96c70ec75403d92cb6a
+2024-03-09 03:00:18,406 - INFO: Most recent row fetched with past_hash_val : 35ea893d70fb7381073bc8bf6b90e5ee2c51e9d14bb0f96c70ec75403d92cb6a
+2024-03-09 03:00:18,406 - INFO: Hashes are equal => no new notifs
+2024-03-09 06:00:20,034 - INFO: Current hash val, 35ea893d70fb7381073bc8bf6b90e5ee2c51e9d14bb0f96c70ec75403d92cb6a
+2024-03-09 06:00:20,037 - INFO: Most recent row fetched with past_hash_val : 35ea893d70fb7381073bc8bf6b90e5ee2c51e9d14bb0f96c70ec75403d92cb6a
+2024-03-09 06:00:20,037 - INFO: Hashes are equal => no new notifs
+2024-03-09 09:00:19,824 - INFO: Current hash val, 2874e8dd158915d89ea74abdff415bf157eaa192c1a8f33f786eca971cfc9541
+2024-03-09 09:00:19,827 - INFO: Most recent row fetched with past_hash_val : 35ea893d70fb7381073bc8bf6b90e5ee2c51e9d14bb0f96c70ec75403d92cb6a
+2024-03-09 09:00:19,828 - INFO: Hashes of current and past are not equal
+2024-03-09 09:02:45,381 - INFO: Clicked on Next Button
+2024-03-09 09:02:45,385 - INFO: Waited for download to complete
+2024-03-09 09:05:06,134 - INFO: Clicked on Next Button
+2024-03-09 09:05:06,137 - INFO: Waited for download to complete
+2024-03-09 09:05:26,728 - INFO: Clicked on Next Button
+2024-03-09 09:05:26,729 - INFO: Waited for download to complete
+2024-03-09 09:06:32,359 - INFO: Clicked on Next Button
+2024-03-09 09:06:32,361 - INFO: Waited for download to complete
+2024-03-09 09:07:38,311 - INFO: Clicked on Next Button
+2024-03-09 09:07:38,317 - INFO: Waited for download to complete
+2024-03-09 09:08:44,306 - INFO: Clicked on Next Button
+2024-03-09 09:08:44,308 - INFO: Waited for download to complete
+2024-03-09 09:09:09,114 - INFO: Clicked on Next Button
+2024-03-09 09:09:09,116 - INFO: Waited for download to complete
+2024-03-09 09:09:46,673 - INFO: Clicked on Next Button
+2024-03-09 09:09:46,675 - INFO: Waited for download to complete
+2024-03-09 09:10:02,747 - INFO: Clicked on Next Button
+2024-03-09 09:10:02,748 - INFO: Waited for download to complete
+2024-03-09 09:10:23,604 - INFO: Clicked on Next Button
+2024-03-09 09:10:23,605 - INFO: Waited for download to complete
+2024-03-09 09:10:44,323 - INFO: Clicked on Next Button
+2024-03-09 09:10:44,326 - INFO: Waited for download to complete
+2024-03-09 09:11:00,397 - INFO: Clicked on Next Button
+2024-03-09 09:11:00,399 - INFO: Waited for download to complete
+2024-03-09 09:11:16,247 - INFO: Clicked on Next Button
+2024-03-09 09:11:16,250 - INFO: Waited for download to complete
+2024-03-09 09:11:42,045 - INFO: Clicked on Next Button
+2024-03-09 09:11:42,047 - INFO: Waited for download to complete
+2024-03-09 09:11:57,926 - INFO: Clicked on Next Button
+2024-03-09 09:11:57,928 - INFO: Waited for download to complete
+2024-03-09 09:12:13,911 - INFO: Clicked on Next Button
+2024-03-09 09:12:13,913 - INFO: Waited for download to complete
+2024-03-09 09:12:29,785 - INFO: Clicked on Next Button
+2024-03-09 09:12:29,788 - INFO: Waited for download to complete
+2024-03-09 09:12:55,371 - INFO: Clicked on Next Button
+2024-03-09 09:12:55,377 - INFO: Waited for download to complete
+2024-03-09 09:13:11,000 - INFO: Clicked on Next Button
+2024-03-09 09:13:11,004 - INFO: Waited for download to complete
+2024-03-09 09:13:27,119 - INFO: Clicked on Next Button
+2024-03-09 09:13:27,124 - INFO: Waited for download to complete
+2024-03-09 09:13:42,755 - INFO: Clicked on Next Button
+2024-03-09 09:13:42,757 - INFO: Waited for download to complete
+2024-03-09 09:14:48,478 - INFO: Clicked on Next Button
+2024-03-09 09:14:48,479 - INFO: Waited for download to complete
+2024-03-09 09:23:03,475 - INFO: Clicked on Next Button
+2024-03-09 09:23:03,479 - INFO: Waited for download to complete
+2024-03-09 09:24:09,012 - INFO: Clicked on Next Button
+2024-03-09 09:24:09,014 - INFO: Waited for download to complete
+2024-03-09 09:25:14,561 - INFO: Clicked on Next Button
+2024-03-09 09:25:14,563 - INFO: Waited for download to complete
+2024-03-09 09:26:20,134 - INFO: Clicked on Next Button
+2024-03-09 09:26:20,137 - INFO: Waited for download to complete
+2024-03-09 09:28:15,715 - INFO: Clicked on Next Button
+2024-03-09 09:28:15,718 - INFO: Waited for download to complete
+2024-03-09 09:28:30,974 - INFO: Clicked on Next Button
+2024-03-09 09:28:30,975 - INFO: Waited for download to complete
+2024-03-09 09:29:31,543 - INFO: Clicked on Next Button
+2024-03-09 09:29:31,544 - INFO: Waited for download to complete
+2024-03-09 09:30:24,405 - INFO: Clicked on Next Button
+2024-03-09 09:30:24,407 - INFO: Waited for download to complete
+2024-03-09 09:30:44,840 - INFO: Clicked on Next Button
+2024-03-09 09:30:44,843 - INFO: Waited for download to complete
+2024-03-09 09:31:09,473 - INFO: Clicked on Next Button
+2024-03-09 09:31:09,474 - INFO: Waited for download to complete
+2024-03-09 09:31:29,022 - INFO: Clicked on Next Button
+2024-03-09 09:31:29,025 - INFO: Waited for download to complete
+2024-03-09 09:31:49,575 - INFO: Clicked on Next Button
+2024-03-09 09:31:49,577 - INFO: Waited for download to complete
+2024-03-09 09:32:09,934 - INFO: Clicked on Next Button
+2024-03-09 09:32:09,936 - INFO: Waited for download to complete
+2024-03-09 09:32:25,893 - INFO: Clicked on Next Button
+2024-03-09 09:32:25,894 - INFO: Waited for download to complete
+2024-03-09 09:32:46,646 - INFO: Clicked on Next Button
+2024-03-09 09:32:46,647 - INFO: Waited for download to complete
+2024-03-09 09:33:02,506 - INFO: Clicked on Next Button
+2024-03-09 09:33:02,508 - INFO: Waited for download to complete
+2024-03-09 09:33:18,433 - INFO: Clicked on Next Button
+2024-03-09 09:33:18,434 - INFO: Waited for download to complete
+2024-03-09 09:33:33,999 - INFO: Clicked on Next Button
+2024-03-09 09:33:34,000 - INFO: Waited for download to complete
+2024-03-09 09:33:54,737 - INFO: Clicked on Next Button
+2024-03-09 09:33:54,740 - INFO: Waited for download to complete
+2024-03-09 09:34:15,482 - INFO: Clicked on Next Button
+2024-03-09 09:34:15,484 - INFO: Waited for download to complete
+2024-03-09 09:34:36,271 - INFO: Clicked on Next Button
+2024-03-09 09:34:36,274 - INFO: Waited for download to complete
+2024-03-11 09:00:08,312 - INFO: Current hash val, f438459aba40e2cbfc32fd675c7e7a050318a60df1073625c93262d5502f16ed
+2024-03-11 09:00:08,316 - INFO: Most recent row fetched with past_hash_val : 35ea893d70fb7381073bc8bf6b90e5ee2c51e9d14bb0f96c70ec75403d92cb6a
+2024-03-11 09:00:08,316 - INFO: Hashes of current and past are not equal
+2024-03-11 09:01:21,735 - INFO: Clicked on Next Button
+2024-03-11 09:01:21,739 - INFO: Waited for download to complete
+2024-03-11 09:02:27,962 - INFO: Clicked on Next Button
+2024-03-11 09:02:27,963 - INFO: Waited for download to complete
+2024-03-11 09:03:10,780 - INFO: Clicked on Next Button
+2024-03-11 09:03:10,781 - INFO: Waited for download to complete
+2024-03-11 09:03:36,496 - INFO: Clicked on Next Button
+2024-03-11 09:03:36,499 - INFO: Waited for download to complete
+2024-03-11 09:04:11,651 - INFO: Clicked on Next Button
+2024-03-11 09:04:11,653 - INFO: Waited for download to complete
+2024-03-11 09:04:32,590 - INFO: Clicked on Next Button
+2024-03-11 09:04:32,592 - INFO: Waited for download to complete
+2024-03-11 09:04:48,638 - INFO: Clicked on Next Button
+2024-03-11 09:04:48,639 - INFO: Waited for download to complete
+2024-03-11 09:05:27,751 - INFO: Clicked on Next Button
+2024-03-11 09:05:27,753 - INFO: Waited for download to complete
+2024-03-11 09:05:49,015 - INFO: Clicked on Next Button
+2024-03-11 09:05:49,017 - INFO: Waited for download to complete
+2024-03-11 09:06:15,351 - INFO: Clicked on Next Button
+2024-03-11 09:06:15,352 - INFO: Waited for download to complete
+2024-03-11 09:06:36,453 - INFO: Clicked on Next Button
+2024-03-11 09:06:36,454 - INFO: Waited for download to complete
+2024-03-11 09:06:57,821 - INFO: Clicked on Next Button
+2024-03-11 09:06:57,823 - INFO: Waited for download to complete
+2024-03-11 09:07:24,209 - INFO: Clicked on Next Button
+2024-03-11 09:07:24,211 - INFO: Waited for download to complete
+2024-03-11 09:07:45,870 - INFO: Clicked on Next Button
+2024-03-11 09:07:45,872 - INFO: Waited for download to complete
+2024-03-11 09:08:46,566 - INFO: Clicked on Next Button
+2024-03-11 09:08:46,570 - INFO: Waited for download to complete
+2024-03-11 09:09:52,820 - INFO: Clicked on Next Button
+2024-03-11 09:09:52,821 - INFO: Waited for download to complete
+2024-03-11 09:12:09,153 - INFO: Clicked on Next Button
+2024-03-11 09:12:09,154 - INFO: Waited for download to complete
+2024-03-11 09:12:55,655 - INFO: Clicked on Next Button
+2024-03-11 09:12:55,656 - INFO: Waited for download to complete
+2024-03-11 09:13:25,216 - INFO: Clicked on Next Button
+2024-03-11 09:13:25,218 - INFO: Waited for download to complete
+2024-03-11 09:14:23,241 - INFO: Clicked on Next Button
+2024-03-11 09:14:23,243 - INFO: Waited for download to complete
+2024-03-11 09:15:25,218 - INFO: Clicked on Next Button
+2024-03-11 09:15:25,221 - INFO: Waited for download to complete
+2024-03-11 09:16:27,205 - INFO: Clicked on Next Button
+2024-03-11 09:16:27,207 - INFO: Waited for download to complete
+2024-03-11 09:17:13,791 - INFO: Clicked on Next Button
+2024-03-11 09:17:13,792 - INFO: Waited for download to complete
+2024-03-11 09:17:44,041 - WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f3b4040>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /legal/circulars/feb-2024/revised-pricing-methodology-for-institutional-placements-of-privately-placed-infrastructure-investment-trust-invit-_81268.html
+2024-03-11 09:17:54,068 - WARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f3c46a0>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /legal/circulars/feb-2024/revised-pricing-methodology-for-institutional-placements-of-privately-placed-infrastructure-investment-trust-invit-_81268.html
+2024-03-11 09:18:04,090 - WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f3c4880>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /legal/circulars/feb-2024/revised-pricing-methodology-for-institutional-placements-of-privately-placed-infrastructure-investment-trust-invit-_81268.html
+2024-03-11 09:18:14,113 - WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f3c4a60>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /legal/circulars/feb-2024/revised-pricing-methodology-for-institutional-placements-of-privately-placed-infrastructure-investment-trust-invit-_81268.html
+2024-03-11 09:19:18,563 - INFO: Clicked on Next Button
+2024-03-11 09:19:18,564 - INFO: Waited for download to complete
+2024-03-11 09:20:25,225 - INFO: Clicked on Next Button
+2024-03-11 09:20:25,226 - INFO: Waited for download to complete
+2024-03-11 09:21:31,897 - INFO: Clicked on Next Button
+2024-03-11 09:21:31,898 - INFO: Waited for download to complete
+2024-03-11 09:22:38,651 - INFO: Clicked on Next Button
+2024-03-11 09:22:38,652 - INFO: Waited for download to complete
+2024-03-11 09:23:32,010 - WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f6bf4c0>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/feb-2024/notice-of-demand-dated-02-02-2024-in-recovery-certificate-no-7579-of-2024-issued-against-prashant-prabhakar-gadkari-pan-akqpg5006n-in-the-matter-of-setubandhan-infrastructure-limited_81071.html
+2024-03-11 09:23:42,030 - WARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f302700>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/feb-2024/notice-of-demand-dated-02-02-2024-in-recovery-certificate-no-7579-of-2024-issued-against-prashant-prabhakar-gadkari-pan-akqpg5006n-in-the-matter-of-setubandhan-infrastructure-limited_81071.html
+2024-03-11 09:23:52,065 - WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f3028e0>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/feb-2024/notice-of-demand-dated-02-02-2024-in-recovery-certificate-no-7579-of-2024-issued-against-prashant-prabhakar-gadkari-pan-akqpg5006n-in-the-matter-of-setubandhan-infrastructure-limited_81071.html
+2024-03-11 09:24:02,088 - WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f302ac0>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/feb-2024/notice-of-demand-dated-02-02-2024-in-recovery-certificate-no-7579-of-2024-issued-against-prashant-prabhakar-gadkari-pan-akqpg5006n-in-the-matter-of-setubandhan-infrastructure-limited_81071.html
+2024-03-11 09:24:12,109 - WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f302ca0>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/feb-2024/notice-of-demand-dated-02-02-2024-in-recovery-certificate-no-7579-of-2024-issued-against-prashant-prabhakar-gadkari-pan-akqpg5006n-in-the-matter-of-setubandhan-infrastructure-limited_81071.html
+2024-03-11 09:24:32,158 - WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f3026a0>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/feb-2024/completion-of-recovery-certificate-no-2789-of-2020-dated-january-24-2020-issued-against-river-high-right-share-brokers-pvt-ltd-defaulter-pan-aagcr2643p-in-the-matter-of-kanak-krishi-implements-_81061.html
+2024-03-11 09:24:42,179 - WARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f302520>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/feb-2024/completion-of-recovery-certificate-no-2789-of-2020-dated-january-24-2020-issued-against-river-high-right-share-brokers-pvt-ltd-defaulter-pan-aagcr2643p-in-the-matter-of-kanak-krishi-implements-_81061.html
+2024-03-11 09:24:52,201 - WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f302370>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/feb-2024/completion-of-recovery-certificate-no-2789-of-2020-dated-january-24-2020-issued-against-river-high-right-share-brokers-pvt-ltd-defaulter-pan-aagcr2643p-in-the-matter-of-kanak-krishi-implements-_81061.html
+2024-03-11 09:25:02,223 - WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f3021c0>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/feb-2024/completion-of-recovery-certificate-no-2789-of-2020-dated-january-24-2020-issued-against-river-high-right-share-brokers-pvt-ltd-defaulter-pan-aagcr2643p-in-the-matter-of-kanak-krishi-implements-_81061.html
+2024-03-11 09:25:12,249 - WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f8f4070>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/feb-2024/completion-of-recovery-certificate-no-2789-of-2020-dated-january-24-2020-issued-against-river-high-right-share-brokers-pvt-ltd-defaulter-pan-aagcr2643p-in-the-matter-of-kanak-krishi-implements-_81061.html
+2024-03-11 09:25:32,286 - WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f8f43d0>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/feb-2024/remittance-order-issued-in-rc-no-7440-of-2023-drawn-against-arun-panchariya-in-the-matter-of-investigation-in-the-matter-of-m-s-texmo-pipes-and-products-ltd-_81054.html
+2024-03-11 09:25:42,309 - WARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f8f41c0>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/feb-2024/remittance-order-issued-in-rc-no-7440-of-2023-drawn-against-arun-panchariya-in-the-matter-of-investigation-in-the-matter-of-m-s-texmo-pipes-and-products-ltd-_81054.html
+2024-03-11 09:25:52,324 - WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f804820>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/feb-2024/remittance-order-issued-in-rc-no-7440-of-2023-drawn-against-arun-panchariya-in-the-matter-of-investigation-in-the-matter-of-m-s-texmo-pipes-and-products-ltd-_81054.html
+2024-03-11 09:26:02,344 - WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f804f10>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/feb-2024/remittance-order-issued-in-rc-no-7440-of-2023-drawn-against-arun-panchariya-in-the-matter-of-investigation-in-the-matter-of-m-s-texmo-pipes-and-products-ltd-_81054.html
+2024-03-11 09:26:12,367 - WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f804d30>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/feb-2024/remittance-order-issued-in-rc-no-7440-of-2023-drawn-against-arun-panchariya-in-the-matter-of-investigation-in-the-matter-of-m-s-texmo-pipes-and-products-ltd-_81054.html
+2024-03-11 09:26:32,415 - WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f631be0>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/feb-2024/remittance-order-issued-in-rc-no-7436-of-2023-drawn-against-arun-panchariya-in-the-matter-of-investigation-in-the-matter-of-disclosures-by-nakoda-limited-in-respect-of-its-gdr-issue-_81052.html
+2024-03-11 09:26:42,434 - WARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f804820>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/feb-2024/remittance-order-issued-in-rc-no-7436-of-2023-drawn-against-arun-panchariya-in-the-matter-of-investigation-in-the-matter-of-disclosures-by-nakoda-limited-in-respect-of-its-gdr-issue-_81052.html
+2024-03-11 09:26:52,456 - WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f804e50>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/feb-2024/remittance-order-issued-in-rc-no-7436-of-2023-drawn-against-arun-panchariya-in-the-matter-of-investigation-in-the-matter-of-disclosures-by-nakoda-limited-in-respect-of-its-gdr-issue-_81052.html
+2024-03-11 09:27:02,481 - WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f804cd0>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/feb-2024/remittance-order-issued-in-rc-no-7436-of-2023-drawn-against-arun-panchariya-in-the-matter-of-investigation-in-the-matter-of-disclosures-by-nakoda-limited-in-respect-of-its-gdr-issue-_81052.html
+2024-03-11 09:27:12,503 - WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f804c40>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/feb-2024/remittance-order-issued-in-rc-no-7436-of-2023-drawn-against-arun-panchariya-in-the-matter-of-investigation-in-the-matter-of-disclosures-by-nakoda-limited-in-respect-of-its-gdr-issue-_81052.html
+2024-03-11 09:27:32,550 - WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f8f4af0>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/feb-2024/completion-of-recovery-certificate-no-7120-of-2023-dated-september-06-2023-issued-against-ravi-shankar-defaulters-pan-dylps7861h-in-the-matter-of-insider-trading-activities-in-the-scrip-of-shilpi-_81050.html
+2024-03-11 09:27:42,573 - WARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f8f4fa0>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/feb-2024/completion-of-recovery-certificate-no-7120-of-2023-dated-september-06-2023-issued-against-ravi-shankar-defaulters-pan-dylps7861h-in-the-matter-of-insider-trading-activities-in-the-scrip-of-shilpi-_81050.html
+2024-03-11 09:27:52,596 - WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f8f40d0>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/feb-2024/completion-of-recovery-certificate-no-7120-of-2023-dated-september-06-2023-issued-against-ravi-shankar-defaulters-pan-dylps7861h-in-the-matter-of-insider-trading-activities-in-the-scrip-of-shilpi-_81050.html
+2024-03-11 09:28:02,621 - WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f302c40>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/feb-2024/completion-of-recovery-certificate-no-7120-of-2023-dated-september-06-2023-issued-against-ravi-shankar-defaulters-pan-dylps7861h-in-the-matter-of-insider-trading-activities-in-the-scrip-of-shilpi-_81050.html
+2024-03-11 09:28:12,642 - WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f3025b0>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/feb-2024/completion-of-recovery-certificate-no-7120-of-2023-dated-september-06-2023-issued-against-ravi-shankar-defaulters-pan-dylps7861h-in-the-matter-of-insider-trading-activities-in-the-scrip-of-shilpi-_81050.html
+2024-03-11 09:28:32,691 - WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f631eb0>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/feb-2024/release-order-ravi-shankar-defaulters-pan-dylps7861h-in-the-matter-of-insider-trading-activities-in-the-scrip-of-shilpi-cable-technologies-ltd-certificate-no-7120-of-2023-_81049.html
+2024-03-11 09:28:42,711 - WARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f63f100>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/feb-2024/release-order-ravi-shankar-defaulters-pan-dylps7861h-in-the-matter-of-insider-trading-activities-in-the-scrip-of-shilpi-cable-technologies-ltd-certificate-no-7120-of-2023-_81049.html
+2024-03-11 09:28:52,731 - WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f63f2e0>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/feb-2024/release-order-ravi-shankar-defaulters-pan-dylps7861h-in-the-matter-of-insider-trading-activities-in-the-scrip-of-shilpi-cable-technologies-ltd-certificate-no-7120-of-2023-_81049.html
+2024-03-11 09:29:02,750 - WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f63f4c0>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/feb-2024/release-order-ravi-shankar-defaulters-pan-dylps7861h-in-the-matter-of-insider-trading-activities-in-the-scrip-of-shilpi-cable-technologies-ltd-certificate-no-7120-of-2023-_81049.html
+2024-03-11 09:29:12,777 - WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f63f6a0>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/feb-2024/release-order-ravi-shankar-defaulters-pan-dylps7861h-in-the-matter-of-insider-trading-activities-in-the-scrip-of-shilpi-cable-technologies-ltd-certificate-no-7120-of-2023-_81049.html
+2024-03-11 09:29:32,835 - WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f8f4df0>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /filings/public-issues/feb-2024/apeejay-surrendra-park-hotels-limited-rhp_81048.html
+2024-03-11 09:29:42,857 - WARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f8f4e80>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /filings/public-issues/feb-2024/apeejay-surrendra-park-hotels-limited-rhp_81048.html
+2024-03-11 09:29:52,880 - WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f8f4ca0>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /filings/public-issues/feb-2024/apeejay-surrendra-park-hotels-limited-rhp_81048.html
+2024-03-11 09:30:02,902 - WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f8f4670>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /filings/public-issues/feb-2024/apeejay-surrendra-park-hotels-limited-rhp_81048.html
+2024-03-11 09:30:12,924 - WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f8f44c0>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /filings/public-issues/feb-2024/apeejay-surrendra-park-hotels-limited-rhp_81048.html
+2024-03-11 09:30:32,972 - WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f804f70>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /reports-and-statistics/reports/feb-2024/consultation-paper-on-flexibility-to-category-i-and-ii-aifs-to-create-encumbrance-on-their-holding-of-equity-in-infrastructure-sector-investee-companies-to-facilitate-raising-of-debt-by-such-investee-_81047.html
+2024-03-11 09:30:42,995 - WARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f631ee0>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /reports-and-statistics/reports/feb-2024/consultation-paper-on-flexibility-to-category-i-and-ii-aifs-to-create-encumbrance-on-their-holding-of-equity-in-infrastructure-sector-investee-companies-to-facilitate-raising-of-debt-by-such-investee-_81047.html
+2024-03-11 09:30:53,020 - WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f631fd0>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /reports-and-statistics/reports/feb-2024/consultation-paper-on-flexibility-to-category-i-and-ii-aifs-to-create-encumbrance-on-their-holding-of-equity-in-infrastructure-sector-investee-companies-to-facilitate-raising-of-debt-by-such-investee-_81047.html
+2024-03-11 09:31:03,041 - WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f343cd0>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /reports-and-statistics/reports/feb-2024/consultation-paper-on-flexibility-to-category-i-and-ii-aifs-to-create-encumbrance-on-their-holding-of-equity-in-infrastructure-sector-investee-companies-to-facilitate-raising-of-debt-by-such-investee-_81047.html
+2024-03-11 09:31:13,064 - WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f63f790>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /reports-and-statistics/reports/feb-2024/consultation-paper-on-flexibility-to-category-i-and-ii-aifs-to-create-encumbrance-on-their-holding-of-equity-in-infrastructure-sector-investee-companies-to-facilitate-raising-of-debt-by-such-investee-_81047.html
+2024-03-11 09:31:33,106 - WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f63fb20>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/feb-2024/notice-of-demand-dated-february-02-2024-in-rc-no-7570-of-2024-issued-to-mr-harinder-kumar-sahu-defaulter-in-the-matter-of-mr-harinder-kumar-sahu-research-analyst_81043.html
+2024-03-11 09:31:43,129 - WARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f63f910>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/feb-2024/notice-of-demand-dated-february-02-2024-in-rc-no-7570-of-2024-issued-to-mr-harinder-kumar-sahu-defaulter-in-the-matter-of-mr-harinder-kumar-sahu-research-analyst_81043.html
+2024-03-11 09:31:53,154 - WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f343df0>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/feb-2024/notice-of-demand-dated-february-02-2024-in-rc-no-7570-of-2024-issued-to-mr-harinder-kumar-sahu-defaulter-in-the-matter-of-mr-harinder-kumar-sahu-research-analyst_81043.html
+2024-03-11 09:32:03,188 - WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f343fa0>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/feb-2024/notice-of-demand-dated-february-02-2024-in-rc-no-7570-of-2024-issued-to-mr-harinder-kumar-sahu-defaulter-in-the-matter-of-mr-harinder-kumar-sahu-research-analyst_81043.html
+2024-03-11 09:32:13,211 - WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f631fd0>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/feb-2024/notice-of-demand-dated-february-02-2024-in-rc-no-7570-of-2024-issued-to-mr-harinder-kumar-sahu-defaulter-in-the-matter-of-mr-harinder-kumar-sahu-research-analyst_81043.html
+2024-03-11 09:32:53,979 - INFO: Clicked on Next Button
+2024-03-11 09:32:53,981 - INFO: Waited for download to complete
+2024-03-11 09:33:24,463 - INFO: Clicked on Next Button
+2024-03-11 09:33:24,464 - INFO: Waited for download to complete
+2024-03-11 09:34:29,875 - INFO: Clicked on Next Button
+2024-03-11 09:34:29,877 - INFO: Waited for download to complete
+2024-03-11 09:35:35,542 - INFO: Clicked on Next Button
+2024-03-11 09:35:35,543 - INFO: Waited for download to complete
+2024-03-11 09:36:41,469 - INFO: Clicked on Next Button
+2024-03-11 09:36:41,470 - INFO: Waited for download to complete
+2024-03-11 09:37:29,631 - WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f5c7ee0>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/informal-guidance/jan-2024/informal-guidance-request-received-from-axis-bank-limited-in-relation-to-the-provisions-of-sebi-master-circular-dated-july-11-2023-on-sebi-listing-obligations-and-disclosure-requirements-regulation-_80852.html
+2024-03-11 09:37:39,654 - WARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f5c7f10>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/informal-guidance/jan-2024/informal-guidance-request-received-from-axis-bank-limited-in-relation-to-the-provisions-of-sebi-master-circular-dated-july-11-2023-on-sebi-listing-obligations-and-disclosure-requirements-regulation-_80852.html
+2024-03-11 09:37:49,673 - WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f5c7a90>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/informal-guidance/jan-2024/informal-guidance-request-received-from-axis-bank-limited-in-relation-to-the-provisions-of-sebi-master-circular-dated-july-11-2023-on-sebi-listing-obligations-and-disclosure-requirements-regulation-_80852.html
+2024-03-11 09:37:59,700 - WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f5c76a0>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/informal-guidance/jan-2024/informal-guidance-request-received-from-axis-bank-limited-in-relation-to-the-provisions-of-sebi-master-circular-dated-july-11-2023-on-sebi-listing-obligations-and-disclosure-requirements-regulation-_80852.html
+2024-03-11 09:38:09,724 - WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f5c7610>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/informal-guidance/jan-2024/informal-guidance-request-received-from-axis-bank-limited-in-relation-to-the-provisions-of-sebi-master-circular-dated-july-11-2023-on-sebi-listing-obligations-and-disclosure-requirements-regulation-_80852.html
+2024-03-11 09:38:29,773 - WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f298730>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-notice-of-demand-for-recovery-certificate-no-7542-of-2024-against-capital-finance-advisory-s-proprietor-vishavjit-singh-sendhav-in-the-matter-of-capital-finance-advisory-_81120.html
+2024-03-11 09:38:39,796 - WARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f298940>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-notice-of-demand-for-recovery-certificate-no-7542-of-2024-against-capital-finance-advisory-s-proprietor-vishavjit-singh-sendhav-in-the-matter-of-capital-finance-advisory-_81120.html
+2024-03-11 09:38:49,818 - WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f298610>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-notice-of-demand-for-recovery-certificate-no-7542-of-2024-against-capital-finance-advisory-s-proprietor-vishavjit-singh-sendhav-in-the-matter-of-capital-finance-advisory-_81120.html
+2024-03-11 09:38:59,839 - WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f298a90>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-notice-of-demand-for-recovery-certificate-no-7542-of-2024-against-capital-finance-advisory-s-proprietor-vishavjit-singh-sendhav-in-the-matter-of-capital-finance-advisory-_81120.html
+2024-03-11 09:39:09,862 - WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f298b80>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-notice-of-demand-for-recovery-certificate-no-7542-of-2024-against-capital-finance-advisory-s-proprietor-vishavjit-singh-sendhav-in-the-matter-of-capital-finance-advisory-_81120.html
+2024-03-11 09:39:29,897 - WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f2982e0>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-notice-of-demand-for-recovery-certificate-no-7541-of-2024-against-profit-mantraa-research-proprietor-shri-suraj-kumar-rai-in-the-matter-of-profit-mantraa-research_81119.html
+2024-03-11 09:39:39,928 - WARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f298ca0>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-notice-of-demand-for-recovery-certificate-no-7541-of-2024-against-profit-mantraa-research-proprietor-shri-suraj-kumar-rai-in-the-matter-of-profit-mantraa-research_81119.html
+2024-03-11 09:39:49,950 - WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f298b80>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-notice-of-demand-for-recovery-certificate-no-7541-of-2024-against-profit-mantraa-research-proprietor-shri-suraj-kumar-rai-in-the-matter-of-profit-mantraa-research_81119.html
+2024-03-11 09:39:59,971 - WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f298a60>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-notice-of-demand-for-recovery-certificate-no-7541-of-2024-against-profit-mantraa-research-proprietor-shri-suraj-kumar-rai-in-the-matter-of-profit-mantraa-research_81119.html
+2024-03-11 09:40:09,992 - WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f2989d0>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-notice-of-demand-for-recovery-certificate-no-7541-of-2024-against-profit-mantraa-research-proprietor-shri-suraj-kumar-rai-in-the-matter-of-profit-mantraa-research_81119.html
+2024-03-11 09:40:30,040 - WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f5c73d0>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-notice-of-demand-for-recovery-certificate-no-7540-of-2024-against-core-investment-prop-deepak-bamne-and-core-group-prop-matwar-mehra-in-the-matter-of-core-investment-_81117.html
+2024-03-11 09:40:40,061 - WARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f5c7700>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-notice-of-demand-for-recovery-certificate-no-7540-of-2024-against-core-investment-prop-deepak-bamne-and-core-group-prop-matwar-mehra-in-the-matter-of-core-investment-_81117.html
+2024-03-11 09:40:50,082 - WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f5c7b20>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-notice-of-demand-for-recovery-certificate-no-7540-of-2024-against-core-investment-prop-deepak-bamne-and-core-group-prop-matwar-mehra-in-the-matter-of-core-investment-_81117.html
+2024-03-11 09:41:00,107 - WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f2a0400>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-notice-of-demand-for-recovery-certificate-no-7540-of-2024-against-core-investment-prop-deepak-bamne-and-core-group-prop-matwar-mehra-in-the-matter-of-core-investment-_81117.html
+2024-03-11 09:41:10,123 - WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f2a0190>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-notice-of-demand-for-recovery-certificate-no-7540-of-2024-against-core-investment-prop-deepak-bamne-and-core-group-prop-matwar-mehra-in-the-matter-of-core-investment-_81117.html
+2024-03-11 09:41:30,175 - WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f72cf10>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-notice-of-demand-for-recovery-certificate-no-7539-of-2024-against-agrich-traders-proprietor-prakash-shyamlal-rathod-in-the-matter-of-agrich-traders_81115.html
+2024-03-11 09:41:40,202 - WARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f72cb50>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-notice-of-demand-for-recovery-certificate-no-7539-of-2024-against-agrich-traders-proprietor-prakash-shyamlal-rathod-in-the-matter-of-agrich-traders_81115.html
+2024-03-11 09:41:50,227 - WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f72ce50>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-notice-of-demand-for-recovery-certificate-no-7539-of-2024-against-agrich-traders-proprietor-prakash-shyamlal-rathod-in-the-matter-of-agrich-traders_81115.html
+2024-03-11 09:42:00,250 - WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f72cf70>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-notice-of-demand-for-recovery-certificate-no-7539-of-2024-against-agrich-traders-proprietor-prakash-shyamlal-rathod-in-the-matter-of-agrich-traders_81115.html
+2024-03-11 09:42:10,272 - WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f5c7f10>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-notice-of-demand-for-recovery-certificate-no-7539-of-2024-against-agrich-traders-proprietor-prakash-shyamlal-rathod-in-the-matter-of-agrich-traders_81115.html
+2024-03-11 09:42:30,320 - WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f2a0e80>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-notice-of-demand-for-recovery-certificate-no-7538-of-2024-against-mapple-research-proprietor-mr-maneesh-pavar-in-the-matter-of-mapple-research_81113.html
+2024-03-11 09:42:40,341 - WARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f2a0310>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-notice-of-demand-for-recovery-certificate-no-7538-of-2024-against-mapple-research-proprietor-mr-maneesh-pavar-in-the-matter-of-mapple-research_81113.html
+2024-03-11 09:42:50,366 - WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f2a0b20>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-notice-of-demand-for-recovery-certificate-no-7538-of-2024-against-mapple-research-proprietor-mr-maneesh-pavar-in-the-matter-of-mapple-research_81113.html
+2024-03-11 09:43:00,385 - WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f2a0c70>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-notice-of-demand-for-recovery-certificate-no-7538-of-2024-against-mapple-research-proprietor-mr-maneesh-pavar-in-the-matter-of-mapple-research_81113.html
+2024-03-11 09:43:10,402 - WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f2a06a0>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-notice-of-demand-for-recovery-certificate-no-7538-of-2024-against-mapple-research-proprietor-mr-maneesh-pavar-in-the-matter-of-mapple-research_81113.html
+2024-03-11 09:43:30,448 - WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f298910>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-notice-of-demand-for-recovery-certificate-no-7537-of-2024-against-m-s-rns-global-capital-proprietor-lakhan-chouhan-rohit-soni-and-ms-shivani-thakur-in-the-matter-of-_81112.html
+2024-03-11 09:43:40,466 - WARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f298dc0>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-notice-of-demand-for-recovery-certificate-no-7537-of-2024-against-m-s-rns-global-capital-proprietor-lakhan-chouhan-rohit-soni-and-ms-shivani-thakur-in-the-matter-of-_81112.html
+2024-03-11 09:43:50,489 - WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f2986d0>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-notice-of-demand-for-recovery-certificate-no-7537-of-2024-against-m-s-rns-global-capital-proprietor-lakhan-chouhan-rohit-soni-and-ms-shivani-thakur-in-the-matter-of-_81112.html
+2024-03-11 09:44:00,512 - WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f72c760>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-notice-of-demand-for-recovery-certificate-no-7537-of-2024-against-m-s-rns-global-capital-proprietor-lakhan-chouhan-rohit-soni-and-ms-shivani-thakur-in-the-matter-of-_81112.html
+2024-03-11 09:44:10,531 - WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f8890a0>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-notice-of-demand-for-recovery-certificate-no-7537-of-2024-against-m-s-rns-global-capital-proprietor-lakhan-chouhan-rohit-soni-and-ms-shivani-thakur-in-the-matter-of-_81112.html
+2024-03-11 09:44:30,572 - WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f298d60>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-notice-of-demand-for-recovery-certificate-no-7536-of-2024-against-capital-finance-advisory-prop-vishavjit-singh-sendhav-in-the-matter-of-capital-finance-advisorys_81110.html
+2024-03-11 09:44:40,594 - WARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f298f40>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-notice-of-demand-for-recovery-certificate-no-7536-of-2024-against-capital-finance-advisory-prop-vishavjit-singh-sendhav-in-the-matter-of-capital-finance-advisorys_81110.html
+2024-03-11 09:44:50,615 - WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f2988e0>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-notice-of-demand-for-recovery-certificate-no-7536-of-2024-against-capital-finance-advisory-prop-vishavjit-singh-sendhav-in-the-matter-of-capital-finance-advisorys_81110.html
+2024-03-11 09:45:00,632 - WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f298820>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-notice-of-demand-for-recovery-certificate-no-7536-of-2024-against-capital-finance-advisory-prop-vishavjit-singh-sendhav-in-the-matter-of-capital-finance-advisorys_81110.html
+2024-03-11 09:45:10,658 - WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f298280>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-notice-of-demand-for-recovery-certificate-no-7536-of-2024-against-capital-finance-advisory-prop-vishavjit-singh-sendhav-in-the-matter-of-capital-finance-advisorys_81110.html
+2024-03-11 09:45:30,710 - WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f2a0100>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-notice-of-demand-for-recovery-certificate-no-7535-of-2024-against-india-global-research-its-proprietor-shri-kamal-prasad-patel-and-shri-devi-deen-patel-in-the-matter-of-_81108.html
+2024-03-11 09:45:40,727 - WARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f2a00d0>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-notice-of-demand-for-recovery-certificate-no-7535-of-2024-against-india-global-research-its-proprietor-shri-kamal-prasad-patel-and-shri-devi-deen-patel-in-the-matter-of-_81108.html
+2024-03-11 09:45:50,746 - WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f2a05e0>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-notice-of-demand-for-recovery-certificate-no-7535-of-2024-against-india-global-research-its-proprietor-shri-kamal-prasad-patel-and-shri-devi-deen-patel-in-the-matter-of-_81108.html
+2024-03-11 09:46:00,769 - WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f5c7670>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-notice-of-demand-for-recovery-certificate-no-7535-of-2024-against-india-global-research-its-proprietor-shri-kamal-prasad-patel-and-shri-devi-deen-patel-in-the-matter-of-_81108.html
+2024-03-11 09:46:10,788 - WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f5c7970>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-notice-of-demand-for-recovery-certificate-no-7535-of-2024-against-india-global-research-its-proprietor-shri-kamal-prasad-patel-and-shri-devi-deen-patel-in-the-matter-of-_81108.html
+2024-03-11 09:46:30,833 - WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f889220>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-notice-of-demand-for-recovery-certificate-no-7534-of-2024-against-m-s-capital-raise-and-research-proprietor-ajay-singh-ranawat-in-the-matter-of-capital-raise-and-research_81107.html
+2024-03-11 09:46:40,854 - WARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f889e20>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-notice-of-demand-for-recovery-certificate-no-7534-of-2024-against-m-s-capital-raise-and-research-proprietor-ajay-singh-ranawat-in-the-matter-of-capital-raise-and-research_81107.html
+2024-03-11 09:46:50,875 - WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f889df0>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-notice-of-demand-for-recovery-certificate-no-7534-of-2024-against-m-s-capital-raise-and-research-proprietor-ajay-singh-ranawat-in-the-matter-of-capital-raise-and-research_81107.html
+2024-03-11 09:47:00,912 - WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f89b1f0>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-notice-of-demand-for-recovery-certificate-no-7534-of-2024-against-m-s-capital-raise-and-research-proprietor-ajay-singh-ranawat-in-the-matter-of-capital-raise-and-research_81107.html
+2024-03-11 09:47:10,936 - WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f5c78e0>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-notice-of-demand-for-recovery-certificate-no-7534-of-2024-against-m-s-capital-raise-and-research-proprietor-ajay-singh-ranawat-in-the-matter-of-capital-raise-and-research_81107.html
+2024-03-11 09:47:30,988 - WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f2a0af0>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-remittance-order-for-recovery-certificate-no-2907-of-2020-and-4574-against-mahendrabhai-naranbhai-patel_80959.html
+2024-03-11 09:47:41,008 - WARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f2a09d0>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-remittance-order-for-recovery-certificate-no-2907-of-2020-and-4574-against-mahendrabhai-naranbhai-patel_80959.html
+2024-03-11 09:47:51,029 - WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f2a0b50>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-remittance-order-for-recovery-certificate-no-2907-of-2020-and-4574-against-mahendrabhai-naranbhai-patel_80959.html
+2024-03-11 09:48:01,048 - WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f2a0160>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-remittance-order-for-recovery-certificate-no-2907-of-2020-and-4574-against-mahendrabhai-naranbhai-patel_80959.html
+2024-03-11 09:48:11,073 - WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f889b50>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-remittance-order-for-recovery-certificate-no-2907-of-2020-and-4574-against-mahendrabhai-naranbhai-patel_80959.html
+2024-03-11 09:48:31,124 - WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f298df0>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-remittance-order-for-recovery-certificate-no-5061-of-2022-against-platinum-corporation-in-the-matter-of-sharepro-services-pvt-ltd_80958.html
+2024-03-11 09:48:41,147 - WARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f2982e0>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-remittance-order-for-recovery-certificate-no-5061-of-2022-against-platinum-corporation-in-the-matter-of-sharepro-services-pvt-ltd_80958.html
+2024-03-11 09:48:51,166 - WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f298bb0>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-remittance-order-for-recovery-certificate-no-5061-of-2022-against-platinum-corporation-in-the-matter-of-sharepro-services-pvt-ltd_80958.html
+2024-03-11 09:49:01,189 - WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f298b20>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-remittance-order-for-recovery-certificate-no-5061-of-2022-against-platinum-corporation-in-the-matter-of-sharepro-services-pvt-ltd_80958.html
+2024-03-11 09:49:11,221 - WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f89b3a0>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-remittance-order-for-recovery-certificate-no-5061-of-2022-against-platinum-corporation-in-the-matter-of-sharepro-services-pvt-ltd_80958.html
+2024-03-11 09:49:31,264 - WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f298970>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-remittance-order-for-recovery-certificate-no-5502-of-2022-against-ajay-chauhan-proprietor-drift-financial-services-in-the-matter-of-drift-financial-services_80956.html
+2024-03-11 09:49:41,289 - WARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f298a90>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-remittance-order-for-recovery-certificate-no-5502-of-2022-against-ajay-chauhan-proprietor-drift-financial-services-in-the-matter-of-drift-financial-services_80956.html
+2024-03-11 09:49:51,310 - WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f2981f0>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-remittance-order-for-recovery-certificate-no-5502-of-2022-against-ajay-chauhan-proprietor-drift-financial-services-in-the-matter-of-drift-financial-services_80956.html
+2024-03-11 09:50:01,332 - WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f298670>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-remittance-order-for-recovery-certificate-no-5502-of-2022-against-ajay-chauhan-proprietor-drift-financial-services-in-the-matter-of-drift-financial-services_80956.html
+2024-03-11 09:50:11,356 - WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f0a4f298190>: Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)")': /enforcement/recovery-proceedings/jan-2024/sebi-order-for-compliance-remittance-order-for-recovery-certificate-no-5502-of-2022-against-ajay-chauhan-proprietor-drift-financial-services-in-the-matter-of-drift-financial-services_80956.html
+2024-03-11 09:50:25,558 - INFO: Clicked on Next Button
+2024-03-11 09:50:25,560 - INFO: Waited for download to complete
